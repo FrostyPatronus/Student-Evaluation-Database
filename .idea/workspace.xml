@@ -2,369 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66732bee-9d43-4771-9bee-c52a47949e0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/__elements.html" afterPath="$PROJECT_DIR$/HTML/__elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/__generic.html" afterPath="$PROJECT_DIR$/HTML/__generic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/add_classes.html" afterPath="$PROJECT_DIR$/HTML/add_classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/add_students.html" afterPath="$PROJECT_DIR$/HTML/add_students.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/css/ie8.css" afterPath="$PROJECT_DIR$/HTML/assets/css/ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/css/ie9.css" afterPath="$PROJECT_DIR$/HTML/assets/css/ie9.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/css/images/intro.svg" afterPath="$PROJECT_DIR$/HTML/assets/css/images/intro.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/css/main.css" afterPath="$PROJECT_DIR$/HTML/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/HTML/assets/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/js/main.js" afterPath="$PROJECT_DIR$/HTML/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/js/util.js" afterPath="$PROJECT_DIR$/HTML/assets/js/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/base/_page.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/base/_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/base/_typography.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/base/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_box.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_box.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_button.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_button.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_features.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_features.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_form.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_icon.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_icon.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_image.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_image.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_list.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_section.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_split.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_split.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_spotlights.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_spotlights.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_table.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_table.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/components/_wrapper.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/components/_wrapper.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/ie8.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/ie8.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/ie9.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/ie9.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/layout/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/layout/_intro.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/layout/_intro.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/layout/_sidebar.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/layout/_sidebar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/layout/_wrapper.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/layout/_wrapper.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/libs/_functions.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/libs/_functions.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/libs/_mixins.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/libs/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/libs/_skel.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/libs/_skel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/libs/_vars.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/libs/_vars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assets/sass/main.scss" afterPath="$PROJECT_DIR$/HTML/assets/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assignment_index.html" afterPath="$PROJECT_DIR$/HTML/assignment_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assignment_php/addassignment.php" afterPath="$PROJECT_DIR$/HTML/assignment_php/addassignment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assignment_php/delete_all.php" afterPath="$PROJECT_DIR$/HTML/assignment_php/delete_all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assignment_php/delete_group.php" afterPath="$PROJECT_DIR$/HTML/assignment_php/delete_group.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assignment_php/echo_assignments.php" afterPath="$PROJECT_DIR$/HTML/assignment_php/echo_assignments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/assignment_php/show_assignments.php" afterPath="$PROJECT_DIR$/HTML/assignment_php/show_assignments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/classes_php/delete_all.php" afterPath="$PROJECT_DIR$/HTML/classes_php/delete_all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/classes_php/echo_classes.php" afterPath="$PROJECT_DIR$/HTML/classes_php/echo_classes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/classes_php/echo_instructor.php" afterPath="$PROJECT_DIR$/HTML/classes_php/echo_instructor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/classes_php/show_classes.php" afterPath="$PROJECT_DIR$/HTML/classes_php/show_classes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/edit_eval.php" afterPath="$PROJECT_DIR$/HTML/edit_eval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_helper/echo_all_assign.php" afterPath="$PROJECT_DIR$/HTML/eval_helper/echo_all_assign.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_helper/echo_student_eval.php" afterPath="$PROJECT_DIR$/HTML/eval_helper/echo_student_eval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_helper/fecho_all_assign.php" afterPath="$PROJECT_DIR$/HTML/eval_helper/fecho_all_assign.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_helper/fpdf_multiline.php" afterPath="$PROJECT_DIR$/HTML/eval_helper/fpdf_multiline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_helper/functions.php" afterPath="$PROJECT_DIR$/HTML/eval_helper/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_helper/generate_img.php" afterPath="$PROJECT_DIR$/HTML/eval_helper/generate_img.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_helper/test.php" afterPath="$PROJECT_DIR$/HTML/eval_helper/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/assign_complete.php" afterPath="$PROJECT_DIR$/HTML/eval_php/assign_complete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/define_eval.php" afterPath="$PROJECT_DIR$/HTML/eval_php/define_eval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/dupable_eval.php" afterPath="$PROJECT_DIR$/HTML/eval_php/dupable_eval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/echo_entries.php" afterPath="$PROJECT_DIR$/HTML/eval_php/echo_entries.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/eval.php" afterPath="$PROJECT_DIR$/HTML/eval_php/eval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/eval_class.php" afterPath="$PROJECT_DIR$/HTML/eval_php/eval_class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/push_data.php" afterPath="$PROJECT_DIR$/HTML/eval_php/push_data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/suggestions.php" afterPath="$PROJECT_DIR$/HTML/eval_php/suggestions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/evaluate_students.php" afterPath="$PROJECT_DIR$/HTML/evaluate_students.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/FAQ.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/FAQ.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/changelog.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/changelog.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/__construct.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/__construct.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/acceptpagebreak.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/acceptpagebreak.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/addfont.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/addfont.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/addlink.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/addlink.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/addpage.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/addpage.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/aliasnbpages.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/aliasnbpages.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/cell.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/cell.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/close.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/close.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/error.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/error.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/footer.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/footer.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/getpageheight.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/getpageheight.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/getpagewidth.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/getpagewidth.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/getstringwidth.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/getstringwidth.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/getx.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/getx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/gety.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/gety.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/header.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/header.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/image.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/image.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/index.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/line.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/line.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/link.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/link.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/ln.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/ln.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/multicell.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/multicell.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/output.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/output.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/pageno.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/pageno.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/rect.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/rect.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setauthor.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setauthor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setautopagebreak.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setautopagebreak.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setcompression.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setcompression.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setcreator.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setcreator.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setdisplaymode.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setdisplaymode.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setdrawcolor.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setdrawcolor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setfillcolor.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setfillcolor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setfont.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setfont.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setfontsize.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setfontsize.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setkeywords.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setkeywords.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setleftmargin.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setleftmargin.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setlinewidth.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setlinewidth.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setlink.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setlink.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setmargins.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setmargins.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setrightmargin.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setrightmargin.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setsubject.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setsubject.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/settextcolor.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/settextcolor.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/settitle.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/settitle.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/settopmargin.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/settopmargin.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setx.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setx.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/setxy.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/setxy.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/sety.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/sety.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/text.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/text.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/doc/write.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/doc/write.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/courier.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/courier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/courierb.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/courierb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/courierbi.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/courierbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/courieri.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/courieri.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/helvetica.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/helvetica.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/helveticab.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/helveticab.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/helveticabi.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/helveticabi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/helveticai.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/helveticai.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/symbol.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/symbol.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/times.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/times.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/timesb.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/timesb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/timesbi.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/timesbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/timesi.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/timesi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/font/zapfdingbats.php" afterPath="$PROJECT_DIR$/HTML/fpdf/font/zapfdingbats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/fpdf.css" afterPath="$PROJECT_DIR$/HTML/fpdf/fpdf.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/fpdf.php" afterPath="$PROJECT_DIR$/HTML/fpdf/fpdf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/makefont/makefont.php" afterPath="$PROJECT_DIR$/HTML/fpdf/makefont/makefont.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/makefont/ttfparser.php" afterPath="$PROJECT_DIR$/HTML/fpdf/makefont/ttfparser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/calligra.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/calligra.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/index.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/index.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/makefont.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/makefont.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto1.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto1.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto2.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto2.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto2.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto3.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto3.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto3.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto4.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto4.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto4.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto5.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto5.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto5.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto6.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto6.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto6.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto7.htm" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto7.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto7.php" afterPath="$PROJECT_DIR$/HTML/fpdf/tutorial/tuto7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/index.html" afterPath="$PROJECT_DIR$/HTML/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/index_php/echo_semester.php" afterPath="$PROJECT_DIR$/HTML/index_php/echo_semester.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/jquery.js" afterPath="$PROJECT_DIR$/HTML/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pBarcode128.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pBarcode128.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pBarcode39.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pBarcode39.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pBubble.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pBubble.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pCache.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pCache.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pData.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pData.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pDraw.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pDraw.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pImage.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pImage.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pIndicator.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pIndicator.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pPie.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pPie.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pRadar.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pRadar.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pScatter.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pScatter.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pSplit.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pSplit.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pSpring.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pSpring.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pStock.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pStock.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/class/pSurface.class.php" afterPath="$PROJECT_DIR$/HTML/pChart/class/pSurface.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/delayedLoader/delayedLoading.js" afterPath="$PROJECT_DIR$/HTML/pChart/examples/delayedLoader/delayedLoading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/delayedLoader/draw.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/delayedLoader/draw.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/delayedLoader/index.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/delayedLoader/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.Combo.area.lines.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.Combo.area.lines.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.Combo.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.Combo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.Mixed.classes.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.Mixed.classes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.addRandomValues.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.addRandomValues.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.barcode.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.barcode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.barcode128.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.barcode128.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.barcode39.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.barcode39.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.basic.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.basic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.cache.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.createFunctionSerie.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.createFunctionSerie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.createFunctionSerie.scatter.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.createFunctionSerie.scatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DPie.labels.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DPie.labels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DPie.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DPie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DRing.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DRing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DRingValues.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw2DRingValues.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DPie.labels.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DPie.labels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DPie.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DPie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DPie.transparent.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DPie.transparent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DRing.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DRing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DRingValues.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.draw3DRingValues.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAnscombeQuartet.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAnscombeQuartet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAntialiasPixel.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAntialiasPixel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.enhanced.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.enhanced.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.threshold.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaChart.threshold.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaMirror.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawAreaMirror.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawArrow.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawArrow.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawArrowLabel.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawArrowLabel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.borders.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.borders.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.can.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.can.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.floating.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.floating.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.palette.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.palette.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.poll.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.poll.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.shaded.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.shaded.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.spacing.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.spacing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.span.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.span.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.vertical.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBarChart.vertical.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBestfit.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBestfit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBezier.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBezier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBubbleChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBubbleChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBubbleChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBubbleChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBubbleChart.square.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawBubbleChart.square.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawCircle.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawCircle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawContour.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawContour.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawDerivative.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawDerivative.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawDerivative.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawDerivative.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledCircle.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledCircle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledRectangle.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledRectangle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledSplineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledSplineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledSplineChart.threshold.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledSplineChart.threshold.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledStepChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFilledStepChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFromGIF.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFromGIF.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFromJPG.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFromJPG.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFromPNG.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawFromPNG.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawGeometricMean.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawGeometricMean.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawGradientArea.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawGradientArea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawHarmonicMean.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawHarmonicMean.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawIndicator.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawIndicator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.barchart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.barchart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.bubble.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.bubble.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.caption.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.caption.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.scatter.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.scatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.stacked.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.stacked.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.vertical.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLabel.vertical.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLegend.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLegend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLine.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.network.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.network.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.plots.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.plots.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.reversed.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.reversed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawLineChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawMedian.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawMedian.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPieLegend.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPieLegend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPlotChart.icon.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPlotChart.icon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPlotChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPlotChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPlotChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPlotChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPolygon.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawPolygon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawProgress.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawProgress.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawRectangle.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawRectangle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawRoundedFilledRectangle.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawRoundedFilledRectangle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawRoundedRectangle.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawRoundedRectangle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.color.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.color.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.custom.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.custom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.dates.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.dates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.floating.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.floating.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.labels.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.labels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.manual.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.manual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.multiple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.multiple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.reverse.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScale.reverse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatter.shape.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatter.shape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatter.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatter.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterBestFit.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterBestFit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterLineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterLineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterLineChart.trigo.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterLineChart.trigo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterPlotChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterPlotChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterScale.manual.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterScale.manual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterScale.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterScale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterSplineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawScatterSplineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSimple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSimple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSpline.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSpline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSplineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSplineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSplineChart.reversed.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSplineChart.reversed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSplineChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSplineChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedAreaChart.normalized.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedAreaChart.normalized.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedAreaChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedAreaChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedAreaChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedAreaChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.border.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.border.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.can.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.can.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.pyramid.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.pyramid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.rounded.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.rounded.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.shaded.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStackedBarChart.shaded.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStandardDeviation.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStandardDeviation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStepChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStepChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStepChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStepChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStockChart.median.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStockChart.median.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStockChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStockChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStockChart.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawStockChart.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSurface.palette.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSurface.palette.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSurface.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSurface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSurface.simple.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawSurface.simple.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawText.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawText.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawThreshold.labels.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawThreshold.labels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawThreshold.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawThreshold.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawThresholdArea.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawThresholdArea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawXThreshold.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawXThreshold.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawXThresholdArea.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawXThresholdArea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawZoneChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawZoneChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.drawingObjects.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.drawingObjects.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.normalize.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.normalize.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.polar.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.polar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.polar.values.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.polar.values.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.fixedmax.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.fixedmax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.labels.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.labels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.values.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.radar.values.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.setFontProperties.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.setFontProperties.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.setShadow.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.setShadow.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.singlebarcode128.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.singlebarcode128.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.singlebarcode39.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.singlebarcode39.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.split.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.split.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.complex.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.complex.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.labels.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.labels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.relations.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.spring.relations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.text.alignment.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.text.alignment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.transparent.background.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.transparent.background.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/example.writeBounds.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/example.writeBounds.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/imagemap.js" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/imagemap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/index.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/2DPie.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/2DPie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/2DRing.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/2DRing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/3DPie.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/3DPie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/3DRing.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/3DRing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/AreaChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/AreaChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/BarChart.labels.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/BarChart.labels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/BarChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/BarChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/BubbleChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/BubbleChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/LineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/LineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/PlotChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/PlotChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/PolarChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/PolarChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/RadarChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/RadarChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/ScatterLineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/ScatterLineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/ScatterPlotChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/ScatterPlotChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/ScatterSplineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/ScatterSplineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/Shapes.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/Shapes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/SplineChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/SplineChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/StackedBarChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/StackedBarChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/StepChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/StepChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/StockChart.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/imageMap/scripts/StockChart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/index.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/includes/functions.js" afterPath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/includes/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/includes/jscolor.js" afterPath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/includes/jscolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/includes/rounded_corners_lite.inc.js" afterPath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/includes/rounded_corners_lite.inc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/index.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/script/render.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/script/render.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/script/session.php" afterPath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/script/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/style.css" afterPath="$PROJECT_DIR$/HTML/pChart/examples/sandbox/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/pChart/index.php" afterPath="$PROJECT_DIR$/HTML/pChart/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/students_php/delete_all.php" afterPath="$PROJECT_DIR$/HTML/students_php/delete_all.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/students_php/delete_group.php" afterPath="$PROJECT_DIR$/HTML/students_php/delete_group.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/students_php/delete_recent.php" afterPath="$PROJECT_DIR$/HTML/students_php/delete_recent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/students_php/echo_students.php" afterPath="$PROJECT_DIR$/HTML/students_php/echo_students.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/students_php/options.php" afterPath="$PROJECT_DIR$/HTML/students_php/options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/students_php/show_students.php" afterPath="$PROJECT_DIR$/HTML/students_php/show_students.php" />
     </list>
     <ignored path="Database.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -396,19 +35,19 @@
       <file leaf-file-name="edit_eval.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/edit_eval.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="152" column="46" selection-start-line="152" selection-start-column="46" selection-end-line="152" selection-end-column="46" />
+            <state relative-caret-position="331">
+              <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
               <folding>
-                <marker date="1470894441056" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
-                <marker date="1470894441056" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
-                <marker date="1470894441056" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
-                <marker date="1470894441056" expanded="true" signature="4540:4717" placeholder="..." />
-                <marker date="1470894441056" expanded="true" signature="4576:4684" placeholder="..." />
-                <marker date="1470894441056" expanded="true" signature="5174:5654" placeholder="..." />
-                <marker date="1470894441056" expanded="true" signature="5222:5482" placeholder="..." />
-                <marker date="1470894441056" expanded="true" signature="5269:5300" placeholder="..." />
-                <marker date="1470894441056" expanded="true" signature="5361:5445" placeholder="..." />
-                <marker date="1470894441056" expanded="true" signature="5518:5621" placeholder="..." />
+                <marker date="1470895762031" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
+                <marker date="1470895762031" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
+                <marker date="1470895762031" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
+                <marker date="1470895762031" expanded="true" signature="4540:4717" placeholder="..." />
+                <marker date="1470895762031" expanded="true" signature="4576:4684" placeholder="..." />
+                <marker date="1470895762031" expanded="true" signature="5174:5654" placeholder="..." />
+                <marker date="1470895762031" expanded="true" signature="5222:5482" placeholder="..." />
+                <marker date="1470895762031" expanded="true" signature="5269:5300" placeholder="..." />
+                <marker date="1470895762031" expanded="true" signature="5361:5445" placeholder="..." />
+                <marker date="1470895762031" expanded="true" signature="5518:5621" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -453,8 +92,8 @@
       <file leaf-file-name="evaluate_students.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/evaluate_students.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2622">
-              <caret line="442" column="49" selection-start-line="442" selection-start-column="49" selection-end-line="442" selection-end-column="49" />
+            <state relative-caret-position="5729">
+              <caret line="337" column="88" selection-start-line="337" selection-start-column="88" selection-end-line="337" selection-end-column="88" />
               <folding>
                 <marker date="1470894445104" expanded="true" signature="1437:1741" placeholder="..." />
                 <marker date="1470894445104" expanded="true" signature="1480:1723" placeholder="{...}" />
@@ -552,8 +191,8 @@
         <option value="$PROJECT_DIR$/HTML/eval_helper/echo_student_eval.php" />
         <option value="$PROJECT_DIR$/HTML/eval_helper/functions.php" />
         <option value="$PROJECT_DIR$/HTML/students_php/show_students.php" />
-        <option value="$PROJECT_DIR$/HTML/edit_eval.php" />
         <option value="$PROJECT_DIR$/HTML/evaluate_students.php" />
+        <option value="$PROJECT_DIR$/HTML/edit_eval.php" />
       </list>
     </option>
   </component>
@@ -744,19 +383,28 @@
       <workItem from="1470335852283" duration="98000" />
       <workItem from="1470367274287" duration="5041000" />
       <workItem from="1470681666256" duration="10768000" />
-      <workItem from="1470893914818" duration="550000" />
+      <workItem from="1470893914818" duration="1939000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactored code">
+      <created>1470894567768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1470894567768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381681000" />
+    <option name="totallyTimeSpent" value="383070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16325037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16325037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -789,6 +437,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Refactored code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,6 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,6 +713,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,6 +728,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,6 +744,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,6 +752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,22 +761,6 @@
         <state relative-caret-position="187">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/evaluate_students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="442" column="49" selection-start-line="442" selection-start-column="49" selection-end-line="442" selection-end-column="49" />
-          <folding>
-            <marker date="1470894445104" expanded="true" signature="1437:1741" placeholder="..." />
-            <marker date="1470894445104" expanded="true" signature="1480:1723" placeholder="{...}" />
-            <marker date="1470894445104" expanded="true" signature="1815:1927" placeholder="..." />
-            <marker date="1470894445104" expanded="true" signature="1859:1908" placeholder="{...}" />
-            <marker date="1470894445104" expanded="true" signature="27989:28002" placeholder="..." />
-            <marker date="1470894445104" expanded="true" signature="28604:28617" placeholder="..." />
-            <marker date="1470894445104" expanded="true" signature="29100:29114" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,21 +813,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/evaluate_students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5729">
+          <caret line="337" column="88" selection-start-line="337" selection-start-column="88" selection-end-line="337" selection-end-column="88" />
+          <folding>
+            <marker date="1470894445104" expanded="true" signature="1437:1741" placeholder="..." />
+            <marker date="1470894445104" expanded="true" signature="1480:1723" placeholder="{...}" />
+            <marker date="1470894445104" expanded="true" signature="1815:1927" placeholder="..." />
+            <marker date="1470894445104" expanded="true" signature="1859:1908" placeholder="{...}" />
+            <marker date="1470894445104" expanded="true" signature="27989:28002" placeholder="..." />
+            <marker date="1470894445104" expanded="true" signature="28604:28617" placeholder="..." />
+            <marker date="1470894445104" expanded="true" signature="29100:29114" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/edit_eval.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="152" column="46" selection-start-line="152" selection-start-column="46" selection-end-line="152" selection-end-column="46" />
+        <state relative-caret-position="331">
+          <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
           <folding>
-            <marker date="1470894441056" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
-            <marker date="1470894441056" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
-            <marker date="1470894441056" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
-            <marker date="1470894441056" expanded="true" signature="4540:4717" placeholder="..." />
-            <marker date="1470894441056" expanded="true" signature="4576:4684" placeholder="..." />
-            <marker date="1470894441056" expanded="true" signature="5174:5654" placeholder="..." />
-            <marker date="1470894441056" expanded="true" signature="5222:5482" placeholder="..." />
-            <marker date="1470894441056" expanded="true" signature="5269:5300" placeholder="..." />
-            <marker date="1470894441056" expanded="true" signature="5361:5445" placeholder="..." />
-            <marker date="1470894441056" expanded="true" signature="5518:5621" placeholder="..." />
+            <marker date="1470895762031" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
+            <marker date="1470895762031" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
+            <marker date="1470895762031" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
+            <marker date="1470895762031" expanded="true" signature="4540:4717" placeholder="..." />
+            <marker date="1470895762031" expanded="true" signature="4576:4684" placeholder="..." />
+            <marker date="1470895762031" expanded="true" signature="5174:5654" placeholder="..." />
+            <marker date="1470895762031" expanded="true" signature="5222:5482" placeholder="..." />
+            <marker date="1470895762031" expanded="true" signature="5269:5300" placeholder="..." />
+            <marker date="1470895762031" expanded="true" signature="5361:5445" placeholder="..." />
+            <marker date="1470895762031" expanded="true" signature="5518:5621" placeholder="..." />
           </folding>
         </state>
       </provider>

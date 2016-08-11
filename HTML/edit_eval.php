@@ -95,7 +95,7 @@ array_shift($assignment_list);
                     var url = "eval_php/delete_entry.php?class=" + class_name + "&student=" + student + "&assignment=" + assignment;
                     //alert(url);
                     $.get(encodeURI(url), function () {
-                        //update_table();
+                        location.reload()
                     });
                     //alert(assignment + student)
                 }

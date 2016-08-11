@@ -376,7 +376,7 @@
 
                     <table style="align-items: center;">
                         <thead>
-                        <td style="vertical-align:middle;width:20%;"><h2>Writing Mechanics</h2></td>
+                        <h2>Writing Mechanics</h2>
                         </thead>
 
                         <tr>
@@ -413,7 +413,7 @@
                             </td>
                             <td>
                                 <input type="checkbox" id="run_on" name="run_on">
-                                <label for="run_on">run-on Sentences</label>
+                                <label for="run_on">Run-on Sentences</label>
                             </td>
                         </tr>
 
@@ -453,18 +453,6 @@
             </form>
 
             <script>
-                function edit_eval(student_name, class_name) {
-                    student_name = decodeURIComponent(student_name);
-                    class_name = decodeURIComponent(class_name);
-
-                    student_name = encodeURIComponent(student_name);
-                    class_name = encodeURIComponent(class_name);
-                    var uri = "edit_eval.php?name=" + student_name + "&class=" + class_name;
-                    //alert(encodeURI(uri));
-
-                    window.location.href = uri;
-                }
-
                 function is_checked(id) {
                     return $("#" + id).prop('checked') ? 1 : 0;
                 }
@@ -720,5 +708,5 @@
 <script src="assets/js/main.js"></script>
 
 </body>
-<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+<iframe name="hiddenFrame" width="0" height="0" style="display: none;"></iframe>
 </html>

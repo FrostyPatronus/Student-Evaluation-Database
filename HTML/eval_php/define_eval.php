@@ -57,7 +57,9 @@ $sql_2 = "SELECT
  `agreements`, `commas`, `fragments`, `misplaced`, 
  `apostrophes`, `duplicate`, `hypotheticals`, `run_on`, 
 `capitalization`, `formatting`, `pronouns`, `verb`,
- `spelling` FROM `rubric_2` WHERE `student_name`='$student' AND `class_name`='$class'";
+ `spelling` FROM `rubric_2` 
+ WHERE `student_name`='$student' 
+ AND `class_name`='$class'";
 
 $response = @mysqli_query($dbc, $sql_2);
 $rubric_2 = '';

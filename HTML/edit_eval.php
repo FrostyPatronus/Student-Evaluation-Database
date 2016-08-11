@@ -110,9 +110,9 @@ array_shift($assignment_list);
                         confirmButtonText: "Yes, clear it!",
                         closeOnConfirm: false
                     }, function () {
-                        $.post("classes_php/delete_all.php", function () {
-                            update_table();
-                            swal("Deleted!", "You asked for it.", "success");
+                        $.post("eval_helper/delete_all.php", {name: "<?php echo $student?>", class_name: "<?php echo $class?>"}, function (data) {
+                            document.write(data)
+                            location.reload();
                         });
                     });
                 }

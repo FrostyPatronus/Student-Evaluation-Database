@@ -36,15 +36,16 @@ if ($response) {
         $current_class = $class_name;
 
         $query = "name=$student_name_en&class=$class_name_en";
+        $url = "edit_eval.php?name=$student_name_en&class=$class_name_en";
         //eval_php/eval.php?name=$student_name&class=$class_name
-        $table .=
-            "<tr id=\"table_$student_id\">
+        $table .= "
+                <tr id=\"table_$student_id\">
                 <td width=\"10%\">
                     <a style=\"color:#ff7800; cursor: pointer;\" onclick=\"delete_row($student_id)\" 
                     title='Delete $student_name from this class'> X </a>
                 </td>
                 <td>
-                    <a style=\"color:#0066ff; cursor: pointer;\" href='#' onclick=\"edit_eval('$student_name_en', '$class_name_en')\" title='Edit evaluations for $student_name'> EDIT </a>
+                    <a style=\"color:#0066ff\" href='$url' class='hover-white' title='Edit evaluations for $student_name'> EDIT </a>
                     
                     <a href='eval_php/eval.php?$query' 
                     title='Look at evaluations for $student_name'>$student_name</a>

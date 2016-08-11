@@ -1,5 +1,6 @@
 <?php
-function f_echo($class){
+function f_echo($class)
+{
     require_once('../../mysqli_connector.php'); //Queries the data from the MySQL DB
     global $dbc;
     //$class = $_REQUEST['class'];
@@ -14,14 +15,15 @@ function f_echo($class){
     $response = mysqli_stmt_get_result($stmt);
 
     #If there is data and shit
-    if($response){
+    if ($response) {
         #Queries all the data and puts it in the row
         $table = '';
-        while($row = mysqli_fetch_array($response)){
+        while ($row = mysqli_fetch_array($response)) {
             $table .= $row["assignment_name"] . '&*&*';
         }
         return $table;
     }
     return NULL;
 }
+
 ?>

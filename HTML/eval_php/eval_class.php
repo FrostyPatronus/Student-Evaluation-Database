@@ -1,6 +1,6 @@
 <?php
 ob_start();
-require ("suggestions.php");
+require("suggestions.php");
 $students = explode("&*&*", ob_get_contents());
 ob_end_clean();
 
@@ -12,7 +12,7 @@ require_once('../eval_helper/fpdf_multiline.php');
 $pdf = new PDF_Multiline();
 
 $dupable = true;
-foreach ($students as $student){
+foreach ($students as $student) {
     $_REQUEST['name'] = $student;
     require('eval.php');
 }

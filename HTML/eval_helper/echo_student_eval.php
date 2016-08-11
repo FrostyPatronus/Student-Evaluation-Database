@@ -51,7 +51,7 @@ $response = mysqli_stmt_get_result($stmt);
 
 $rubric_1 = '';
 #If there is data and shit, tim is lost
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     while ($row = mysqli_fetch_array($response)) {
         $citation = $row["citation"];
@@ -87,7 +87,7 @@ mysqli_stmt_execute($stmt);
 $response = mysqli_stmt_get_result($stmt);
 
 $rubric_2 = '';
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     while ($row = mysqli_fetch_array($response)) {
         $agreements = $row['agreements'];

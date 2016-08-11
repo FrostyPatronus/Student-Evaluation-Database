@@ -41,7 +41,6 @@ mysqli_stmt_bind_param($stmt, 'sssiiiiissss',
     $citation, $analysis, $thesis, $topic, $written, $assignment, $class, $student_name, $class);
 
 
-
 mysqli_stmt_execute($stmt);
 
 //echo mysqli_stmt_error($stmt);

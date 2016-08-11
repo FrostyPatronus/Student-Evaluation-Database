@@ -1,11 +1,11 @@
 <?php
-require ('define_eval.php');
+require('define_eval.php');
 require_once('../eval_helper/functions.php');
 
-if(count($_REQUEST) == 2){
+if (count($_REQUEST) == 2) {
     $name = $_REQUEST['name'];
     $class = $_REQUEST['class'];
-}else{
+} else {
     exit("FATAL ERROR. Insufficient values passed to URL");
 }
 
@@ -26,21 +26,21 @@ $student_exists = strrpos($students_blob, $search_string) !== FALSE;
 
 // IF STUDENT EXISTS IN THE DATABASE, IT EXECUTES.
 
-if (!defined('PTS')){
+if (!defined('PTS')) {
     define('PTS', 16); //Define PTS to have value 14
 }
-if (!defined('LBREAK')){
+if (!defined('LBREAK')) {
     define('LBREAK', 8.5); //Define BREAK to have value 8
 }
 
-if(!$student_exists){
+if (!$student_exists) {
     exit("FATAL ERROR. Error. Student '$name' does not exist <br>");
 }
 
 ///////////////////////////////////////////////////////
 // If the student exists, create a new FPDF Document //
 ///////////////////////////////////////////////////////
-if(empty($dupable)){
+if (empty($dupable)) {
     require_once('../eval_helper/fpdf_multiline.php');
     $pdf = new PDF_Multiline(/*'P', 'pt', 'Letter'*/);
 }
@@ -56,18 +56,18 @@ array_pop($rub_1_array);
 $rub_1_count = count($rub_1_array);
 
 // IF no assignments for a person, then print a pdf with this on
-if($rub_1_count == 0){
+if ($rub_1_count == 0) {
     $pdf->SetFont("Helvetica");
     $pdf->Write(PTS, "No assignments evaluated for $name of class $class.");
     if (empty($dupable))
         $pdf->Output();
-    
+
     return;
 }
 
 // DEFINE count_assigns = Number of total assignments for a particular class
-require_once ("../eval_helper/fecho_all_assign.php");
-$count_assigns = count(explode("&*&*",f_echo($class))) - 1;
+require_once("../eval_helper/fecho_all_assign.php");
+$count_assigns = count(explode("&*&*", f_echo($class))) - 1;
 
 // Creates the PDF Header
 create_pdf_header();
@@ -76,7 +76,7 @@ create_pdf_header();
 // Makes an image of the radar graph and displays it accordingly  ///////
 /////////////////////////////////////////////////////////////////////////
 
-require_once ("../eval_helper/generate_img.php");
+require_once("../eval_helper/generate_img.php");
 
 $count = $rub_1_count * 6;
 img_gen("$student_id.$class_id", data_points(), $count);
@@ -116,7 +116,7 @@ $raw_points = explode(",", $rubric_2);
 array_pop($raw_points);
 $sentry = 1;
 $sentry_2 = 1;
-foreach ($raw_points as $column){
+foreach ($raw_points as $column) {
     $points_str = substr($column, 1, -1);
     $points = explode(" : ", $points_str);
 
@@ -124,9 +124,9 @@ foreach ($raw_points as $column){
 
     $data[0][] = $sentry_2;
 
-    foreach ($points as $point){
+    foreach ($points as $point) {
         $string = '';
-        if ($point === '1'){
+        if ($point === '1') {
             $string = 'X';
         }
 
@@ -141,7 +141,7 @@ foreach ($raw_points as $column){
 $pdf->Ln(15);
 $pdf->SetWidths($widths);
 
-foreach ($data as $col){
+foreach ($data as $col) {
     $pdf->Row($col);
 }
 
@@ -151,7 +151,7 @@ $pdf->Cell(0, 0, "The Xs mean you did something wrong.", 0, 0, 'C');
 $pdf->Ln(4);
 $pdf->Cell(0, 0, "Talk to Mr. Hsu for comments and suggestions. Created by Timothy Samson @ (Instagram) tim.gab.sam", 0, 0, 'C');
 
-if(empty($dupable)){
+if (empty($dupable)) {
     $pdf->Output();
     del_temp_pics();
 }

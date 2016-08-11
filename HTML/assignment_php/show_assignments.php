@@ -11,7 +11,7 @@ ORDER BY class_id, assignments.date_due DESC ";
 $response = @mysqli_query($dbc, $query);
 
 #If there is data and shit
-if($response){
+if ($response) {
     #Queries all the data and puts it in the row
     $table = '
             <tr>
@@ -21,7 +21,7 @@ if($response){
 			</tr>
 			';
     $cur_class = '';
-    while($row = mysqli_fetch_array($response)){
+    while ($row = mysqli_fetch_array($response)) {
         $assign_id = $row["assignment_id"];
         $class_id = $row["class_id"];
 
@@ -29,8 +29,8 @@ if($response){
         $assign_name = $row["assignment_name"];
         $date_due = $row["date_due"];
 
-        if ($cur_class != $class_name){
-            $table.= "<tr>
+        if ($cur_class != $class_name) {
+            $table .= "<tr>
                         <td><h2><a style=\"color:#690000; cursor: pointer;\" onclick='delete_group(\"$class_name\")'>X</a></h2></td>
                         <td align=\"center\" >
                             <h2>&nbsp;$class_name</h2>

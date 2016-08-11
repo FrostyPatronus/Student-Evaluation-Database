@@ -12,7 +12,7 @@ mysqli_stmt_execute($stmt);
 
 $response = mysqli_stmt_get_result($stmt);
 
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     $jim = '';
     while ($row = mysqli_fetch_array($response)) {

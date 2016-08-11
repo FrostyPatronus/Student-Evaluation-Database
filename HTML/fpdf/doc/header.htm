@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Header</title>
-<link type="text/css" rel="stylesheet" href="../fpdf.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Header</title>
+    <link type="text/css" rel="stylesheet" href="../fpdf.css">
 </head>
 <body>
 <h1>Header</h1>
@@ -15,9 +15,9 @@ you have to subclass it and override the method if you want a specific processin
 <h2>Example</h2>
 <div class="doc-source">
 <pre><code>class PDF extends FPDF
-{
-function Header()
-{
+    {
+    function Header()
+    {
     // Select Arial bold 15
     $this-&gt;SetFont('Arial','B',15);
     // Move to the right
@@ -26,8 +26,8 @@ function Header()
     $this-&gt;Cell(30,10,'Title',1,0,'C');
     // Line break
     $this-&gt;Ln(20);
-}
-}</code></pre>
+    }
+    }</code></pre>
 </div>
 <h2>See also</h2>
 <a href="footer.htm">Footer</a>

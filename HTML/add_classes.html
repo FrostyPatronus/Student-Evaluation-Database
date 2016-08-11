@@ -5,140 +5,146 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Add Classes</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<head>
+    <title>Add Classes</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
 
-		<script src="../sweetalert-master/dist/sweetalert.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../sweetalert-master/dist/sweetalert.css">
-		<script src="jquery.js"></script>
-	</head>
-	<body>
+    <script src="../sweetalert-master/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../sweetalert-master/dist/sweetalert.css">
+    <script src="jquery.js"></script>
+</head>
+<body>
 
-		<!-- Header -->
-		<header id="header">
-			<a href="index.html" class="title">Humanities Database</a>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="evaluate_students.php" >Evaluate students</a></li>
-					<li><a href="add_students.html" >Add students</a></li>
-					<li><a href="javascript:void(0)" class="active">Add classes</a></li>
-					<li><a href="assignment_index.html">Add Assignments</a></li>
-				</ul>
-			</nav>
-		</header>
+<!-- Header -->
+<header id="header">
+    <a href="index.html" class="title">Humanities Database</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="evaluate_students.php">Evaluate students</a></li>
+            <li><a href="add_students.html">Add students</a></li>
+            <li><a href="javascript:void(0)" class="active">Add classes</a></li>
+            <li><a href="assignment_index.html">Add Assignments</a></li>
+        </ul>
+    </nav>
+</header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Wrapper -->
+<div id="wrapper">
 
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<h1 class="major">Add Classes</h1>
-							<!--<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>-->
-							<form id="class">
-                                
-                                <div class="table-wrapper" >
-								    <table>
-								        <tbody>
-								            <tr>
-												<td style="vertical-align:middle;width:20%;"><h3>Class Name:</h3></td>
-												<td><input type="text" id="class_name" name="class_name" placeholder="'Block 1/2'" required/></td>
-								            </tr>
-                                            <tr>
-                                                <td style="vertical-align:middle;width:20%;"><h3>Instructor</h3></td>
-                                                <td><input type="text" id="instructor" name="instructor" placeholder="'Mr. Hsu'" required/></td>
-                                            </tr>
-				                        </tbody>
-								    </table>
-								</div>    
-                                
-                                <input type="submit" value="Submit">
-                                
-                            </form>
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">Add Classes</h1>
+            <!--<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>-->
+            <form id="class">
 
-						<script>
-							function push_data() {
-								$.post("classes_php/add_class.php", $("#class").serializeArray() , function(data) {
-                                    // document.write(data);
-									$("#class_name").val("");
-									update_table();
-								});
-							}
+                <div class="table-wrapper">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td style="vertical-align:middle;width:20%;"><h3>Class Name:</h3></td>
+                            <td><input type="text" id="class_name" name="class_name" placeholder="'Block 1/2'"
+                                       required/></td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:middle;width:20%;"><h3>Instructor</h3></td>
+                            <td><input type="text" id="instructor" name="instructor" placeholder="'Mr. Hsu'" required/>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-							function update_table() {
-								$.get("classes_php/show_classes.php", function (data){
-									document.getElementById("classes_table").innerHTML = data;
-								});
-							}
+                <input type="submit" value="Submit">
 
-							function delete_row(row) {
-								$.get("classes_php/delete_class.php?row=" + row, function (){
-									update_table();
-								});
-							}
+            </form>
 
-							function delete_all() {
-								swal({
-									title: "Are you sure?",
-									text: "You will not be able to undo this!",
-									type: "warning",
-									showCancelButton: true,
-									confirmButtonColor: "#DD6B55",
-									confirmButtonText: "Yes, clear it!",
-									closeOnConfirm: false
-								}, function(){
-									$.post("classes_php/delete_all.php", function (){
-										update_table();
-										swal("Deleted!", "You asked for it.", "success");
-									});
-								});
-							}
+            <script>
+                function push_data() {
+                    $.post("classes_php/add_class.php", $("#class").serializeArray(), function (data) {
+                        // document.write(data);
+                        $("#class_name").val("");
+                        update_table();
+                    });
+                }
 
-							$(document).ready(function() {
-								$("#class").submit(function(e) {
-									e.preventDefault();
-									push_data();
-								});
-							});
+                function update_table() {
+                    $.get("classes_php/show_classes.php", function (data) {
+                        document.getElementById("classes_table").innerHTML = data;
+                    });
+                }
 
-						</script>
+                function delete_row(row) {
+                    $.get("classes_php/delete_class.php?row=" + row, function () {
+                        update_table();
+                    });
+                }
 
-							<table id="classes_table">
-								<script>
-									update_table();
-								</script>
-							</table>
+                function delete_all() {
+                    swal({
+                        title: "Are you sure?",
+                        text: "You will not be able to undo this!",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#DD6B55",
+                        confirmButtonText: "Yes, clear it!",
+                        closeOnConfirm: false
+                    }, function () {
+                        $.post("classes_php/delete_all.php", function () {
+                            update_table();
+                            swal("Deleted!", "You asked for it.", "success");
+                        });
+                    });
+                }
 
-							<button onclick="delete_all();">Clear All</button>
+                $(document).ready(function () {
+                    $("#class").submit(function (e) {
+                        e.preventDefault();
+                        push_data();
+                    });
+                });
 
-						</div>
-					</section>
-			</div>
-		<!-- Footer -->
-			<footer id="footer" class="wrapper alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Timothy Samson and Casey Lee 2016</li>
-					</ul>
-				</div>
-			</footer>
+            </script>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+            <table id="classes_table">
+                <script>
+                    update_table();
+                </script>
+            </table>
 
-	</body>
-	<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+            <button onclick="delete_all();">Clear All</button>
+
+        </div>
+    </section>
+</div>
+<!-- Footer -->
+<footer id="footer" class="wrapper alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Timothy Samson and Casey Lee 2016</li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+</body>
+<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
 </html>

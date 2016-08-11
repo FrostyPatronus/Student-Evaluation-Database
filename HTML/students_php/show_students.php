@@ -5,7 +5,7 @@ $sql = "SELECT * FROM students ORDER BY class_name, student_name";
 $response = @mysqli_query($dbc, $sql);
 
 #If there is data and shit
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     $table = '
             <tr>
@@ -24,8 +24,8 @@ if($response) {
         $class_name_en = rawurlencode($class_name);
 
         $boole = $current_class != $class_name;
-        if ($boole){
-            $table.= "<tr>
+        if ($boole) {
+            $table .= "<tr>
                         <td><h2><a style=\"color:#690000; cursor: pointer;\" onclick='delete_group(\"$class_name\")'>X</a></h2></td>
                         <td align=\"center\" >
                             <a href='eval_php/eval_class.php?class=$class_name_en'><h2>$class_name</h2></a>
@@ -54,7 +54,7 @@ if($response) {
                 </td>
             </tr>";
     }
-    
+
     echo $table;
 }
 ?>

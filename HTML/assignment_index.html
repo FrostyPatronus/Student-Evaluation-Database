@@ -5,245 +5,254 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Add Assignment</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<head>
+    <title>Add Assignment</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
 
-		<script src="../sweetalert-master/dist/sweetalert.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../sweetalert-master/dist/sweetalert.css">
-		<script src="jquery.js"></script>
-	</head>
+    <script src="../sweetalert-master/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../sweetalert-master/dist/sweetalert.css">
+    <script src="jquery.js"></script>
+</head>
 
-	<body>
+<body>
 
-		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="title">Humanities Database</a>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="evaluate_students.php" >Evaluate students</a></li>
-						<li><a href="add_students.html" >Add students</a></li>
-						<li><a href="add_classes.html">Add classes</a></li>
-						<li><a href="javascript:void(0)" class="active">Add Assignments</a></li>
-					</ul>
-				</nav>
-			</header>
+<!-- Header -->
+<header id="header">
+    <a href="index.html" class="title">Humanities Database</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="evaluate_students.php">Evaluate students</a></li>
+            <li><a href="add_students.html">Add students</a></li>
+            <li><a href="add_classes.html">Add classes</a></li>
+            <li><a href="javascript:void(0)" class="active">Add Assignments</a></li>
+        </ul>
+    </nav>
+</header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Wrapper -->
+<div id="wrapper">
 
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<h1 class="major">Add an Assignment</h1>
-							<!--<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>-->
-							<form id="assignment">
-                                
-                                <div class="table-wrapper" >
-								    <table>
-								        <tbody>
-								            <tr>
-												<td style="vertical-align:middle;width:20%;"><h3>Assignment Name:</h3></td>
-												<td style=""><input type="text" name="assignmentName" placeholder="Name" id="assname" required/></td>
-								            </tr>
-                                            <tr> 
-												<td style="width:200px"><h3>Due Date:<br/> (MM-DD-20YY) </h3></td>
-												<td>
-                                            
-                                                    <input style="color:black;width:70px;" placeholder="MM" type="number" name="month" min="1" max="12" id="MM" required/>
-                                                    <input style="color:black;width:70px;" placeholder="DD" type="number" name="day" min="1" max="31" id="DD" required/>
-                                                    <input style="color:black;width:90px;" placeholder="20YY" type="number" name="year" min="0" max="99" id="YY" required/>
-                                                </td>
-								            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h3>Classes: </h3>
-                                                </td>
-                                                <td id="classes">
-                                                    <script>
-                                                        $.get("classes_php/echo_classes.php", function (data){
-                                                            var classes = data.split("</br>");
-                                                            var td = $("#classes");
-                                                            var string = "";
-                                                            for(var x = 0; x < classes.length - 1; x++){
-                                                                string += "<input type='checkbox' name='checks' id='" + classes[x] + "' value='" + classes[x] + "'>" +
-                                                                "<label for='"+ classes[x] +"'>"+ classes[x] +"</label>"
-                                                            }
-                                                            td.html(string);
-                                                            // 4 Classes. Starts at 4, ends at 7. length is 9
-                                                        });
-                                                    </script>
-                                                </td>
-                                            </tr>
-				                        </tbody>
-								    </table>
-								</div>    
-                                
-                                <input type="submit" value="Submit">
-                                
-                            </form>
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">Add an Assignment</h1>
+            <!--<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>-->
+            <form id="assignment">
 
-							<script>
-                                function classes() {
-                                    var checks = document.forms[0].elements;
-                                    var classes = [];
-                                    for (var x = 4; x < checks.length - 1; x++ ){
-                                        var checkbox = checks[x];
-                                        if (checkbox.checked){
-                                            classes.push(checkbox.value)
+                <div class="table-wrapper">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td style="vertical-align:middle;width:20%;"><h3>Assignment Name:</h3></td>
+                            <td style=""><input type="text" name="assignmentName" placeholder="Name" id="assname"
+                                                required/></td>
+                        </tr>
+                        <tr>
+                            <td style="width:200px"><h3>Due Date:<br/> (MM-DD-20YY) </h3></td>
+                            <td>
+
+                                <input style="color:black;width:70px;" placeholder="MM" type="number" name="month"
+                                       min="1" max="12" id="MM" required/>
+                                <input style="color:black;width:70px;" placeholder="DD" type="number" name="day" min="1"
+                                       max="31" id="DD" required/>
+                                <input style="color:black;width:90px;" placeholder="20YY" type="number" name="year"
+                                       min="0" max="99" id="YY" required/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Classes: </h3>
+                            </td>
+                            <td id="classes">
+                                <script>
+                                    $.get("classes_php/echo_classes.php", function (data) {
+                                        var classes = data.split("</br>");
+                                        var td = $("#classes");
+                                        var string = "";
+                                        for (var x = 0; x < classes.length - 1; x++) {
+                                            string += "<input type='checkbox' name='checks' id='" + classes[x] + "' value='" + classes[x] + "'>" +
+                                                    "<label for='" + classes[x] + "'>" + classes[x] + "</label>"
                                         }
-                                    }
-                                    return classes;
-                                }
-
-                                $("#assignment").submit(function (e) {
-                                    e.preventDefault();
-                                    var form = $("#assignment").serializeArray();
-                                    if (classes().length != 0) {
-                                        form.push({name: "classes", value: classes().toString()});
-                                        $.post("assignment_php/addassignment.php", form, function (data) {
-                                                show_table();
-                                                //$("#assignment").trigger("reset");
-                                                $("#MM").val("");
-                                                $("#DD").val("");
-                                                var assname = $("#assname");
-                                                assname.val("");
-                                                assname.focus();
-                                                //classes();
-                                            });
-                                    }
-                                    else {
-                                        swal({
-                                                title: "Did not select a class",
-                                                text: "Come on man, you can do better than that!",
-                                                type: "warning",
-                                                confirmButtonColor: "#DD6B55",
-                                                confirmButtonText: "OK :("
-                                            })
-
-                                    }
-                                });
-								//Deletes a row
-								function delete_row(line, hoax) {
-									var xhttp = new XMLHttpRequest();
-									xhttp.onreadystatechange = function() {
-										if (xhttp.readyState == 4 && xhttp.status == 200) {
-											//document.getElementById('table_' + line.toString()).remove();
-                                            show_table();
-										}
-									};
-									xhttp.open("GET", "assignment_php/deleteassignment.php?q=" + line + "&p=" + hoax, true);
-									xhttp.send();
-								}
-								//Shows all the tables. Gets its info 
-								function show_table() {
-									var xhttp = new XMLHttpRequest();
-									xhttp.onreadystatechange = function() {
-										if (xhttp.readyState == 4 && xhttp.status == 200) {
-											document.getElementById("assignment_table").innerHTML = xhttp.responseText;
-										}
-									};
-									xhttp.open("GET", "assignment_php/show_assignments.php", true);
-									xhttp.send();
-								}
-								//DELETES ALL THE STUFF!!!
-								function delete_all() {
-									swal({
-											title: "Are you sure?",
-											text: "You will not be able to undo this!",
-											type: "warning",
-											showCancelButton: true,
-											confirmButtonColor: "#DD6B55",
-											confirmButtonText: "Yes, clear it!",
-											closeOnConfirm: false
-										},
-										function(){
-											var xhttp = new XMLHttpRequest();
-											xhttp.onreadystatechange = function () {
-												if (xhttp.readyState == 4 && xhttp.status == 200) {
-													swal("Deleted!", "You asked for it.", "success");
-													show_table();
-												}
-											};
-											xhttp.open("POST", "assignment_php/delete_all.php", true);
-											xhttp.send();
-										});
-								}
-
-                                function delete_group(class_id) {
-                                    swal({
-                                        title: "Are you sure?",
-                                        text: "Deleting all assignments from '" + class_id + "'!",
-                                        type: "warning",
-                                        showCancelButton: true,
-                                        confirmButtonColor: "#DD6B55",
-                                        confirmButtonText: "Yes, clear it!",
-                                        closeOnConfirm: false
-                                    }, function(){
-                                        $.post("assignment_php/delete_group.php?class_id=" + class_id + "&function=classes", function (data){
-                                            //document.write(data);
-                                            //update_table();
-                                            show_table();
-                                            swal("Deleted!", "You asked for it.", "success");
-                                        });
+                                        td.html(string);
+                                        // 4 Classes. Starts at 4, ends at 7. length is 9
                                     });
-                                }
+                                </script>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-                                function delete_instance(assign_id){
-                                    swal({
-                                        title: "Are you sure?",
-                                        text: "Deleting assignment '" + assign_id + "' from all classes" ,
-                                        type: "warning",
-                                        showCancelButton: true,
-                                        confirmButtonColor: "#DD6B55",
-                                        confirmButtonText: "Yes, delete it!",
-                                        closeOnConfirm: false
-                                    }, function(){
-                                        $.post("assignment_php/delete_group.php?class_id=" + assign_id + "&function=instance", function (data){
-                                            //document.write(data);
-                                            //update_table();
-                                            show_table();
-                                            swal("Deleted!", "You asked for it.", "success");
-                                        });
-                                    });
-                                }
-							</script>
+                <input type="submit" value="Submit">
 
-							<table id="assignment_table">
-								<script>
-									show_table();
-								</script>
-							</table>
+            </form>
 
-							<button onclick="delete_all()">Clear All</button>
+            <script>
+                function classes() {
+                    var checks = document.forms[0].elements;
+                    var classes = [];
+                    for (var x = 4; x < checks.length - 1; x++) {
+                        var checkbox = checks[x];
+                        if (checkbox.checked) {
+                            classes.push(checkbox.value)
+                        }
+                    }
+                    return classes;
+                }
 
-						</div>
-					</section>
-			</div>
-		<!-- Footer -->
-			<footer id="footer" class="wrapper alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Timothy Samson and Casey Lee</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+                $("#assignment").submit(function (e) {
+                    e.preventDefault();
+                    var form = $("#assignment").serializeArray();
+                    if (classes().length != 0) {
+                        form.push({name: "classes", value: classes().toString()});
+                        $.post("assignment_php/addassignment.php", form, function (data) {
+                            show_table();
+                            //$("#assignment").trigger("reset");
+                            $("#MM").val("");
+                            $("#DD").val("");
+                            var assname = $("#assname");
+                            assname.val("");
+                            assname.focus();
+                            //classes();
+                        });
+                    }
+                    else {
+                        swal({
+                            title: "Did not select a class",
+                            text: "Come on man, you can do better than that!",
+                            type: "warning",
+                            confirmButtonColor: "#DD6B55",
+                            confirmButtonText: "OK :("
+                        })
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+                    }
+                });
+                //Deletes a row
+                function delete_row(line, hoax) {
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (xhttp.readyState == 4 && xhttp.status == 200) {
+                            //document.getElementById('table_' + line.toString()).remove();
+                            show_table();
+                        }
+                    };
+                    xhttp.open("GET", "assignment_php/deleteassignment.php?q=" + line + "&p=" + hoax, true);
+                    xhttp.send();
+                }
+                //Shows all the tables. Gets its info
+                function show_table() {
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (xhttp.readyState == 4 && xhttp.status == 200) {
+                            document.getElementById("assignment_table").innerHTML = xhttp.responseText;
+                        }
+                    };
+                    xhttp.open("GET", "assignment_php/show_assignments.php", true);
+                    xhttp.send();
+                }
+                //DELETES ALL THE STUFF!!!
+                function delete_all() {
+                    swal({
+                                title: "Are you sure?",
+                                text: "You will not be able to undo this!",
+                                type: "warning",
+                                showCancelButton: true,
+                                confirmButtonColor: "#DD6B55",
+                                confirmButtonText: "Yes, clear it!",
+                                closeOnConfirm: false
+                            },
+                            function () {
+                                var xhttp = new XMLHttpRequest();
+                                xhttp.onreadystatechange = function () {
+                                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                                        swal("Deleted!", "You asked for it.", "success");
+                                        show_table();
+                                    }
+                                };
+                                xhttp.open("POST", "assignment_php/delete_all.php", true);
+                                xhttp.send();
+                            });
+                }
 
-	</body>
-	<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+                function delete_group(class_id) {
+                    swal({
+                        title: "Are you sure?",
+                        text: "Deleting all assignments from '" + class_id + "'!",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#DD6B55",
+                        confirmButtonText: "Yes, clear it!",
+                        closeOnConfirm: false
+                    }, function () {
+                        $.post("assignment_php/delete_group.php?class_id=" + class_id + "&function=classes", function (data) {
+                            //document.write(data);
+                            //update_table();
+                            show_table();
+                            swal("Deleted!", "You asked for it.", "success");
+                        });
+                    });
+                }
+
+                function delete_instance(assign_id) {
+                    swal({
+                        title: "Are you sure?",
+                        text: "Deleting assignment '" + assign_id + "' from all classes",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#DD6B55",
+                        confirmButtonText: "Yes, delete it!",
+                        closeOnConfirm: false
+                    }, function () {
+                        $.post("assignment_php/delete_group.php?class_id=" + assign_id + "&function=instance", function (data) {
+                            //document.write(data);
+                            //update_table();
+                            show_table();
+                            swal("Deleted!", "You asked for it.", "success");
+                        });
+                    });
+                }
+            </script>
+
+            <table id="assignment_table">
+                <script>
+                    show_table();
+                </script>
+            </table>
+
+            <button onclick="delete_all()">Clear All</button>
+
+        </div>
+    </section>
+</div>
+<!-- Footer -->
+<footer id="footer" class="wrapper alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Timothy Samson and Casey Lee</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+</body>
+<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
 </html>

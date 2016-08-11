@@ -23,7 +23,7 @@ $query_2 = "INSERT INTO `assignment_group`(`rel_id`, `class_name`, `assignment_n
             (SELECT `assignment_id` FROM `assignments` WHERE `assignment_name`=?));";
 //'INSERT INTO students VALUES (NULL ,?, ?)';
 
-foreach ($classes as $class){
+foreach ($classes as $class) {
     $stmt_2 = mysqli_prepare($dbc, $query_2);
     $class = trim($class);
     mysqli_stmt_bind_param($stmt_2, 'ssss', $class, $assignment_name, $class, $assignment_name);

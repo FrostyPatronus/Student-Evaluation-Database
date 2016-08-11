@@ -2,7 +2,8 @@
 require_once('../../mysqli_connector.php');
 
 //FIND AVERAGE CONTENT SCORE. 0=>Summation, 1=>out of 'x', 2=>percentage
-function average_content(){
+function average_content()
+{
     global $rub_1_count;
     $data = data_points();
 
@@ -13,7 +14,8 @@ function average_content(){
 }
 
 // FIND AVERAGE WRITING SCORE. 0=>Summation, 1=>out of 'x', 2=>percentage
-function average_writing(){
+function average_writing()
+{
     global $rub_1_count;
     $data = data_points();
 
@@ -24,7 +26,8 @@ function average_writing(){
 }
 
 // RETURNS THE INSTRUCTOR OF THE CLASS
-function find_instructor(){
+function find_instructor()
+{
     global $class;
     require_once('../classes_php/echo_instructor.php');
 
@@ -40,7 +43,8 @@ require("../index_php/echo_semester.php");
 $sem = ob_get_contents();
 ob_end_clean();
 
-function create_pdf_header(){
+function create_pdf_header()
+{
     global $pdf;
     global $name;
     global $class;
@@ -53,13 +57,13 @@ function create_pdf_header(){
     $pdf->Cell(0, 0, 'STUDENT WRITING OVERVIEW', 0, 0, 'C');
     $pdf->Ln(3);
 
-    $pdf->Cell(0,PTS, "Name: $name");
+    $pdf->Cell(0, PTS, "Name: $name");
     $pdf->Ln(LBREAK);
-    $pdf->Cell(0,PTS, "Class: $class");
+    $pdf->Cell(0, PTS, "Class: $class");
     $pdf->Ln(LBREAK);
 
     $instructors = find_instructor();
-    $pdf->Cell(0,PTS, "Instructor: $instructors");
+    $pdf->Cell(0, PTS, "Instructor: $instructors");
     $pdf->Ln(LBREAK);
 
     $count = $rub_1_count;
@@ -77,7 +81,7 @@ function create_pdf_header(){
     $percent_writing = average_writing()[2];
     $pdf->Cell(0, PTS, "Writing score: $avg_writing / $writing_lim = $percent_writing%");
     $pdf->Ln(LBREAK);
-    
+
     $pdf->Cell(0, PTS, "Current Semester: $sem");
     $pdf->Ln(LBREAK);
 
@@ -93,17 +97,18 @@ function create_pdf_header(){
 // Returns an array with the accumulative score of each of the indeces //
 /////////////////////////////////////////////////////////////////////////
 
-function data_points(){
+function data_points()
+{
     global $rub_1_array;
 
     $data_points = array(0, 0, 0, 0, 0);
-    foreach ($rub_1_array as $item){
+    foreach ($rub_1_array as $item) {
         $formatted = substr($item, 1, -1);
 
         $data = explode(" : ", $formatted);
 
         $sentry = 0;
-        foreach ($data as $point){
+        foreach ($data as $point) {
             $data_points[$sentry] += $point;
             $sentry++;
         }
@@ -115,7 +120,8 @@ function data_points(){
 // Delete all files in temp_pics //
 ///////////////////////////////////
 
-function del_temp_pics(){
+function del_temp_pics()
+{
     $path = 'C:\xampp\htdocs\Database\HTML\eval_helper\temp_pics';
     $files = glob($path . '/*');
     foreach ($files as $file) {
@@ -124,7 +130,8 @@ function del_temp_pics(){
     return;
 }
 
-function get_id_from_name($student, $class){
+function get_id_from_name($student, $class)
+{
     global $dbc;
     $array = array();
 
@@ -138,7 +145,7 @@ function get_id_from_name($student, $class){
     $response = mysqli_stmt_get_result($stmt);
 
     #If there is data and shit
-    if($response) {
+    if ($response) {
         #Queries all the data and puts it in the row
         $student_id = '';
         while ($row = mysqli_fetch_array($response)) {
@@ -158,13 +165,13 @@ function get_id_from_name($student, $class){
     $response = mysqli_stmt_get_result($stmt);
 
     #If there is data and shit
-    if($response) {
+    if ($response) {
         #Queries all the data and puts it in the row
         $student_id = '';
         while ($row = mysqli_fetch_array($response)) {
             $student_id .= $row['class_id'];
         }
-        $array[1] =  $student_id;
+        $array[1] = $student_id;
     }
     return $array;
 }

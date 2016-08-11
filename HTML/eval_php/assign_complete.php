@@ -14,7 +14,7 @@ mysqli_stmt_execute($stmt);
 $response = mysqli_stmt_get_result($stmt);
 
 #If there is data and shit
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     $table = '&*&*';
     while ($row = mysqli_fetch_array($response)) {

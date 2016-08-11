@@ -40,7 +40,7 @@ $response = @mysqli_query($dbc, $sql_1);
 
 $rubric_1 = '';
 #If there is data and shit
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     while ($row = mysqli_fetch_array($response)) {
         $citation = $row["citation"];
@@ -62,7 +62,7 @@ $sql_2 = "SELECT
 $response = @mysqli_query($dbc, $sql_2);
 $rubric_2 = '';
 #If there is data and shit
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     while ($row = mysqli_fetch_array($response)) {
         $agreements = $row['agreements'];

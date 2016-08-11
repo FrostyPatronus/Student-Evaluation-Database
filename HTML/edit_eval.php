@@ -15,7 +15,7 @@ $response = mysqli_stmt_get_result($stmt);
 //$response = @mysqli_query($dbc, $sql);
 
 #If there is data and shit
-if($response) {
+if ($response) {
     #Queries all the data and puts it in the row
     $table = '&*&*';
     while ($row = mysqli_fetch_array($response)) {
@@ -34,13 +34,16 @@ array_shift($assignment_list);
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title><?php echo $student?></title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <title><?php echo $student ?></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
 
     <script src="../sweetalert-master/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../sweetalert-master/dist/sweetalert.css">
@@ -54,8 +57,8 @@ array_shift($assignment_list);
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="evaluate_students.php" >Evaluate students</a></li>
-            <li><a href="add_students.html" >Add students</a></li>
+            <li><a href="evaluate_students.php">Evaluate students</a></li>
+            <li><a href="add_students.html">Add students</a></li>
             <li><a href="javascript:void(0)">Add classes</a></li>
             <li><a href="assignment_index.html">Add Assignments</a></li>
         </ul>
@@ -69,13 +72,13 @@ array_shift($assignment_list);
     <section id="main" class="wrapper">
         <div class="inner">
             <h1 class="major">
-                Name: <?php echo $student?> <br/>
-                Class: <?php echo $class?>
+                Name: <?php echo $student ?> <br/>
+                Class: <?php echo $class ?>
             </h1>
 
             <script>
                 function push_data() {
-                    $.post("classes_php/add_class.php", $("#class").serializeArray() , function(data) {
+                    $.post("classes_php/add_class.php", $("#class").serializeArray(), function (data) {
                         // document.write(data);
                         $("#class_name").val("");
                         update_table();
@@ -83,15 +86,15 @@ array_shift($assignment_list);
                 }
 
                 function update_table() {
-                    $.get("classes_php/show_classes.php", function (data){
+                    $.get("classes_php/show_classes.php", function (data) {
                         document.getElementById("classes_table").innerHTML = data;
                     });
                 }
 
                 function delete_row(assignment, student, class_name) {
-                    var url = "eval_php/delete_entry.php?class="+class_name+"&student="+student+"&assignment="+assignment;
+                    var url = "eval_php/delete_entry.php?class=" + class_name + "&student=" + student + "&assignment=" + assignment;
                     //alert(url);
-                    $.get(encodeURI(url), function (){
+                    $.get(encodeURI(url), function () {
                         //update_table();
                     });
                     //alert(assignment + student)
@@ -106,16 +109,16 @@ array_shift($assignment_list);
                         confirmButtonColor: "#DD6B55",
                         confirmButtonText: "Yes, clear it!",
                         closeOnConfirm: false
-                    }, function(){
-                        $.post("classes_php/delete_all.php", function (){
+                    }, function () {
+                        $.post("classes_php/delete_all.php", function () {
                             update_table();
                             swal("Deleted!", "You asked for it.", "success");
                         });
                     });
                 }
 
-                $(document).ready(function() {
-                    $("#class").submit(function(e) {
+                $(document).ready(function () {
+                    $("#class").submit(function (e) {
                         e.preventDefault();
                         push_data();
                     });
@@ -125,7 +128,7 @@ array_shift($assignment_list);
 
             <table id="classes_table">
                 <?php
-                if(count($assignment_list) <=0){
+                if (count($assignment_list) <= 0) {
                     $table =
                         "<tr>
                                <td>
@@ -136,7 +139,7 @@ array_shift($assignment_list);
                 }
                 $student_enc = rawurlencode($student);
                 $class_enc = rawurlencode($class);
-                foreach ($assignment_list as $assignment){
+                foreach ($assignment_list as $assignment) {
                     $assignment_enc = rawurlencode($assignment);
                     $url = "evaluate_students.php?name=$student_enc&class=$class_enc&assignment=$assignment_enc";
                     $table =
@@ -151,9 +154,9 @@ array_shift($assignment_list);
                                </td>
                            </tr>";
                     echo $table;
-                        
-                        
-                    }
+
+
+                }
                 ?>
             </table>
 
@@ -177,7 +180,8 @@ array_shift($assignment_list);
 <script src="assets/js/jquery.scrolly.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
 
 </body>

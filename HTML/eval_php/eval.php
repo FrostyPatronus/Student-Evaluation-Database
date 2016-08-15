@@ -94,7 +94,7 @@ $pdf->Write(PTS, 'WRITING MECHANICS LOG');
 
 //$header = array("----","1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12");
 $data = array(
-    array("============="),
+    array(""),
     array("Agreements"),
     array("Commas"),
     array("Fragments"),
@@ -112,19 +112,27 @@ $data = array(
 
 $widths = array(45);
 
+
 $raw_points = explode(",", $rubric_2);
 array_pop($raw_points);
+
+$raw_dates = explode(":", $due_dates);
+array_shift($raw_dates);
+
 $sentry = 1;
-$sentry_2 = 1;
+$sentry_2 = 0;
 foreach ($raw_points as $column) {
     $points_str = substr($column, 1, -1);
     $points = explode(" : ", $points_str);
 
-    $widths[] = 10;
+    $widths[] = 12;
 
-    $data[0][] = $sentry_2;
+    $date = $raw_dates[$sentry_2];
+    $newDate = date("m-d", strtotime($date));
 
-    foreach ($points as $point) {
+    $data[0][] = $newDate; // Puts all the header dates
+
+    foreach ($points as $point) { // Puts all the points in for each row
         $string = '';
         if ($point === '1') {
             $string = 'X';
@@ -141,8 +149,17 @@ foreach ($raw_points as $column) {
 $pdf->Ln(15);
 $pdf->SetWidths($widths);
 
+$sentry = 0;
 foreach ($data as $col) {
+    if ($sentry == 0){
+        $pdf->SetFontSize(10);
+        $pdf->Row($col);
+        $pdf->SetFontSize(PTS);
+        $sentry = 1;
+        continue;
+    }
     $pdf->Row($col);
+
 }
 
 $pdf->Ln(3);

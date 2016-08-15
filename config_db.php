@@ -18,7 +18,7 @@ assignment_name VARCHAR(30) NOT NULL,
 date_due DATE NOT NULL,
 UNIQUE (assignment_name, date_due));'*/
 
-'CREATE TABLE `assignments` (
+'CREATE TABLE IF NOT EXISTS `assignments` (
  `assignment_id` int(11) NOT NULL AUTO_INCREMENT,
  `assignment_name` varchar(30) NOT NULL,
  `date_due` date NOT NULL,
@@ -32,7 +32,7 @@ echo mysqli_query($dbc, $add_assignments_table)? 'Assignments table created!<br/
 //// CREATE ASSIGNMENTS GROUP TABLE //////////////////////
 //////////////////////////////////////////////////////////
 
-$add_assignments_group = 'CREATE TABLE `assignment_group` (
+$add_assignments_group = 'CREATE TABLE IF NOT EXISTS `assignment_group` (
  `rel_id` int(11) NOT NULL AUTO_INCREMENT,
  `class_name` varchar(30) NOT NULL,
  `assignment_name` varchar(30) NOT NULL,
@@ -54,12 +54,12 @@ echo mysqli_query($dbc, $add_assignments_group)? 'Assignments group table create
 
 //Add Classes table
 $add_classes = /*'
-CREATE TABLE IF NOT EXISTS classes
+CREATE TABLE IF NOT EXISTS IF NOT EXISTS classes
 (class_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 class_name VARCHAR(30) NOT NULL,
 UNIQUE (class_name));';*/
 
-'CREATE TABLE `classes` (
+'CREATE TABLE IF NOT EXISTS `classes` (
  `class_id` int(11) NOT NULL AUTO_INCREMENT,
  `class_name` varchar(30) NOT NULL,
  `instructor` varchar(30) NOT NULL,
@@ -74,12 +74,12 @@ echo mysqli_query($dbc, $add_classes)? 'classes table created!<br/>' : 'classes 
 ////////////////////////////////////////////////////
 
 //Adds student table
-$add_students = /*'CREATE TABLE IF NOT EXISTS students
+$add_students = /*'CREATE TABLE IF NOT EXISTS IF NOT EXISTS students
 (student_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 student_name VARCHAR(50) NOT NULL,
 class_name VARCHAR(30) NOT NULL);';*/
 
-'CREATE TABLE `students` (
+'CREATE TABLE IF NOT EXISTS `students` (
  `student_id` int(11) NOT NULL AUTO_INCREMENT,
  `student_name` varchar(50) NOT NULL,
  `class_name` varchar(30) NOT NULL,
@@ -96,19 +96,19 @@ echo mysqli_query($dbc, $add_students)? 'students table created!<br/>' : 'studen
 //// CREATE RUBRIC 1 TABLE /////////////////////////
 ////////////////////////////////////////////////////
 
-$add_rubric_1 = /*"CREATE TABLE IF NOT EXISTS rubric_1
-( eval_id INT NOT NULL AUTO_INCREMENT , 
-class_name VARCHAR(30) NOT NULL , 
-student_name VARCHAR(50) NOT NULL , 
-assignment_name VARCHAR(30) NOT NULL , 
-citation INT NOT NULL , 
-analysis INT NOT NULL , 
-thesis INT NOT NULL , 
-topic INT NOT NULL , 
+$add_rubric_1 = /*"CREATE TABLE IF NOT EXISTS IF NOT EXISTS rubric_1
+( eval_id INT NOT NULL AUTO_INCREMENT ,
+class_name VARCHAR(30) NOT NULL ,
+student_name VARCHAR(50) NOT NULL ,
+assignment_name VARCHAR(30) NOT NULL ,
+citation INT NOT NULL ,
+analysis INT NOT NULL ,
+thesis INT NOT NULL ,
+topic INT NOT NULL ,
 PRIMARY KEY (eval_id, class_name, student_name, assignment_name),
 UNIQUE (class_name,student_name,assignment_name));";*/
 
-'CREATE TABLE `rubric_1` (
+'CREATE TABLE IF NOT EXISTS `rubric_1` (
  `eval_id` int(11) NOT NULL AUTO_INCREMENT,
  `class_name` varchar(30) NOT NULL,
  `student_name` varchar(50) NOT NULL,
@@ -133,7 +133,7 @@ echo mysqli_query($dbc, $add_rubric_1)? 'rubric_1 table created!<br/>' : 'rubric
 //// CREATE RUBRIC 2 TABLE /////////////////////////
 ////////////////////////////////////////////////////
 
-$add_rubric_2 = /*"CREATE TABLE IF NOT EXISTS rubric_2 (
+$add_rubric_2 = /*"CREATE TABLE IF NOT EXISTS IF NOT EXISTS rubric_2 (
  eval_id int(11) NOT NULL AUTO_INCREMENT,
  class_name varchar(30) NOT NULL,
  student_name varchar(30) NOT NULL,
@@ -154,7 +154,7 @@ $add_rubric_2 = /*"CREATE TABLE IF NOT EXISTS rubric_2 (
  PRIMARY KEY (eval_id,class_name,student_name,assignment_name),
  UNIQUE (class_name,student_name,assignment_name));";*/
 
-'CREATE TABLE `rubric_2` (
+'CREATE TABLE IF NOT EXISTS `rubric_2` (
  `eval_id` int(11) NOT NULL AUTO_INCREMENT,
  `class_name` varchar(30) NOT NULL,
  `student_name` varchar(30) NOT NULL,
@@ -189,18 +189,23 @@ echo mysqli_query($dbc, $add_rubric_2)? 'rubric_2 table created!<br/>' : 'rubric
 
 //Add assignments table if it doesnt exist
 $add_semester_table = /*'
-CREATE TABLE IF NOT EXISTS assignments
+CREATE TABLE IF NOT EXISTS IF NOT EXISTS assignments
 (assignment_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 assignment_name VARCHAR(30) NOT NULL,
 date_due DATE NOT NULL,
 UNIQUE (assignment_name, date_due));'*/
 
-'CREATE TABLE `semester` (
+'CREATE TABLE IF NOT EXISTS `semester` (
  `semester_id` int(11) NOT NULL DEFAULT \'1\',
  `semester` varchar(30) NOT NULL,
  PRIMARY KEY (`semester_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1';
 
 echo mysqli_query($dbc, $add_semester_table)? 'Semester created!<br/>' : 'Semester creation failed :(<br/>';
+
+$add_sem_initial_value = "INSERT INTO `semester`(`semester_id`, `semester`) VALUES (1,'Fall 2016')";
+echo mysqli_query($dbc, $add_sem_initial_value)? 'Semester initial value created!!<br/>' : 'Semester creation failed :(<br/>';
+
+
 
 ?>

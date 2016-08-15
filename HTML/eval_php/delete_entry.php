@@ -1,9 +1,9 @@
 <?php
 require_once('../../mysqli_connector.php');
 
-$class = $_REQUEST['class'];
-$student = $_REQUEST['student'];
-$assignment = $_REQUEST['assignment'];
+$class = $_POST['class_name'];
+$student = $_POST['student'];
+$assignment = $_POST['assignment'];
 
 /*$query = "DELETE FROM rubric_1 WHERE assignment_name = '$assignment' AND student_name = '$student' AND class_name = '$class'";
 mysqli_query($dbc, $query);*/

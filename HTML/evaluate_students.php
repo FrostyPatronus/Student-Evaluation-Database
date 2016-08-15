@@ -87,7 +87,7 @@
                 }
                 ?></h1>
             <!--<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>-->
-            <a href="javascript:void(0)" onclick="delete_recent()">
+            <a href="javascript:void(0)" id="delete_recent">
                 <img style="max-width: 20px; max-height: 20%" src="images/Arrows-Undo-icon.png"></a>
             <h3 id="recent" style="color: #768b95;display: inline-block"> &nbsp;Recently Added:
                 <span style="color: white" id="name_student"></span></h3>
@@ -97,11 +97,28 @@
                 function recently_added (student_val, class_val, assignment_val){
                     var rec_student = $("#name_student");
 
-                    var url = "edit_eval.php?name="+encodeURIComponent(student_val)+"+&class="+encodeURIComponent(class_val);
+                    var enc_student = encodeURIComponent(student_val);
+                    var enc_class = encodeURIComponent(class_val);
+                    var enc_assign = encodeURIComponent(assignment_val);
 
-                    var html = "<a href='"+url+"'>";
+                    var url = "edit_eval.php?name="+enc_student+"+&class="+enc_class;
+                    var pdf = "eval_php/eval.php?name="+enc_student+"&class="+enc_class;
+
+                    var edit = "<a href='"+url+"' style='color: #0066ff'>" + "EDIT : " + "</a>";
+
+                    var html = edit + "<a href='"+pdf+"'>";
                     html += student_val + " From " + class_val + ": '" + assignment_val +"'";
                     html += "</a>";
+
+
+                    $("#delete_recent").click(function () {
+                        var url = "eval_php/delete_entry.php"/*?class=" + enc_class + "&student=" + student + "&assignment=" + enc_assign*/;
+                        var data = {class_name: class_val, student: student_val, assignment: assignment_val};
+                        $.post(url, data, function (vals) {
+                            /*document.write(vals)*/
+                            rec_student.html("");
+                        });
+                    });
 
                     rec_student.html(html);
                 }
@@ -600,11 +617,11 @@
                     });
                 }
 
-                function delete_row(row) {
+                /*function delete_row(row) {
                     $.get("students_php/delete_student.php?row=" + row, function () {
                         update_table();
                     });
-                }
+                }*/
 
                 function delete_all() {
                     swal({
@@ -674,12 +691,14 @@
                                     closeOnConfirm: false
                                 },
                                 function () {
-                                    var form = [];
+                                    /*var form = [];
                                     form.push({name: "student", value: student_val});
                                     form.push({name: "class", value: class_val});
-                                    form.push({name: "assignment", value: assignment_val});
+                                    form.push({name: "assignment", value: assignment_val});*/
 
-                                    $.post("eval_php/delete_entry.php", form, function () {
+                                    var data = {class_name: class_val, student: student_val, assignment: assignment_val};
+
+                                    $.post("eval_php/delete_entry.php", data, function () {
                                         swal("Success!", student_val + "'s evaluation for " + assignment_val + " overwritten", "success");
                                         push_data();
                                         //$("html, body").animate({ scrollTop: 0 }, "slow");

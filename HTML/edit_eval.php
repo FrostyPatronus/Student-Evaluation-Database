@@ -92,9 +92,10 @@ array_shift($assignment_list);
                 }
 
                 function delete_row(assignment, student, class_name) {
-                    var url = "eval_php/delete_entry.php?class=" + class_name + "&student=" + student + "&assignment=" + assignment;
+                    var url = "eval_php/delete_entry.php"/*?"class=" + class_name + "&student=" + student + "&assignment=" + assignment*/;
                     //alert(url);
-                    $.get(encodeURI(url), function () {
+                    var data = {class_name: class_name, student: student, assignment: assignment};
+                    $.post(url, data, function () {
                         location.reload()
                     });
                     //alert(assignment + student)

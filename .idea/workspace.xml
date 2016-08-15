@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66732bee-9d43-4771-9bee-c52a47949e0c" name="Default" comment="Added feature recently added for eval page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/abcde.sql" />
+    <list default="true" id="66732bee-9d43-4771-9bee-c52a47949e0c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/edit_eval.php" afterPath="$PROJECT_DIR$/HTML/edit_eval.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/eval_php/delete_entry.php" afterPath="$PROJECT_DIR$/HTML/eval_php/delete_entry.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/evaluate_students.php" afterPath="$PROJECT_DIR$/HTML/evaluate_students.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config_db.php" afterPath="$PROJECT_DIR$/config_db.php" />
     </list>
     <ignored path="Database.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,40 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edit_eval.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/edit_eval.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="187" column="47" selection-start-line="187" selection-start-column="47" selection-end-line="187" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1471246363035" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
-                <marker date="1471246363035" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
-                <marker date="1471246363035" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
-                <marker date="1471246363035" expanded="true" signature="4589:4766" placeholder="..." />
-                <marker date="1471246363035" expanded="true" signature="4625:4733" placeholder="..." />
-                <marker date="1471246363035" expanded="true" signature="5223:5703" placeholder="..." />
-                <marker date="1471246363035" expanded="true" signature="5271:5531" placeholder="..." />
-                <marker date="1471246363035" expanded="true" signature="5318:5349" placeholder="..." />
-                <marker date="1471246363035" expanded="true" signature="5410:5494" placeholder="..." />
-                <marker date="1471246363035" expanded="true" signature="5567:5670" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_semester.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/index_php/update_semester.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <marker date="1469650652358" expanded="true" signature="206:275" placeholder="UPDATE `seme... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mysqli_connector.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysqli_connector.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,20 +44,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluate_students.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete_entry.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/eval_php/delete_entry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <marker date="1471292066060" expanded="true" signature="319:402" placeholder="DELETE FROM " />
+                <marker date="1471292066060" expanded="true" signature="711:794" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_eval.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/edit_eval.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="96" column="96" selection-start-line="96" selection-start-column="96" selection-end-line="96" selection-end-column="96" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1471291232002" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
+                <marker date="1471291232002" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
+                <marker date="1471291232002" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
+                <marker date="1471291232002" expanded="true" signature="4690:4867" placeholder="..." />
+                <marker date="1471291232002" expanded="true" signature="4726:4834" placeholder="..." />
+                <marker date="1471291232002" expanded="true" signature="5324:5804" placeholder="..." />
+                <marker date="1471291232002" expanded="true" signature="5372:5632" placeholder="..." />
+                <marker date="1471291232002" expanded="true" signature="5419:5450" placeholder="..." />
+                <marker date="1471291232002" expanded="true" signature="5511:5595" placeholder="..." />
+                <marker date="1471291232002" expanded="true" signature="5668:5771" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evaluate_students.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/evaluate_students.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="635" column="99" selection-start-line="635" selection-start-column="99" selection-end-line="635" selection-end-column="99" />
+            <state relative-caret-position="303">
+              <caret line="117" column="50" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#form#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1471244941894" expanded="true" signature="1437:1741" placeholder="..." />
-                <marker date="1471244941894" expanded="true" signature="1480:1723" placeholder="{...}" />
-                <marker date="1471244941894" expanded="true" signature="1815:1927" placeholder="..." />
-                <marker date="1471244941894" expanded="true" signature="1859:1908" placeholder="{...}" />
-                <marker date="1471244941894" expanded="true" signature="28039:28052" placeholder="..." />
-                <marker date="1471244941894" expanded="true" signature="28654:28667" placeholder="..." />
-                <marker date="1471244941894" expanded="true" signature="29150:29164" placeholder="..." />
+                <marker date="1471291994563" expanded="true" signature="1437:1741" placeholder="..." />
+                <marker date="1471291994563" expanded="true" signature="1480:1723" placeholder="{...}" />
+                <marker date="1471291994563" expanded="true" signature="1815:1927" placeholder="..." />
+                <marker date="1471291994563" expanded="true" signature="1859:1908" placeholder="{...}" />
+                <marker date="1471291994563" expanded="true" signature="3864:3869" placeholder="..." />
+                <marker date="1471291994563" expanded="true" signature="3864:3878" placeholder="..." />
+                <marker date="1471291994563" expanded="true" signature="28926:28939" placeholder="..." />
+                <marker date="1471291994563" expanded="true" signature="29541:29554" placeholder="..." />
+                <marker date="1471291994563" expanded="true" signature="30037:30051" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -153,7 +155,6 @@
         <option value="$PROJECT_DIR$/HTML/eval_php/assign_complete.php" />
         <option value="$PROJECT_DIR$/HTML/eval_helper/fecho_all_assign.php" />
         <option value="$PROJECT_DIR$/HTML/eval_php/suggestions.php" />
-        <option value="$PROJECT_DIR$/HTML/eval_php/delete_entry.php" />
         <option value="$PROJECT_DIR$/HTML/eval_php/eval_class.php" />
         <option value="$PROJECT_DIR$/HTML/eval_php/eval.php" />
         <option value="$PROJECT_DIR$/HTML/eval_helper/echo_student_eval.php" />
@@ -163,8 +164,9 @@
         <option value="$PROJECT_DIR$/HTML/eval_helper/delete_all.php" />
         <option value="$PROJECT_DIR$/mysqli_connector.php" />
         <option value="$PROJECT_DIR$/config_db.php" />
-        <option value="$PROJECT_DIR$/HTML/evaluate_students.php" />
         <option value="$PROJECT_DIR$/HTML/edit_eval.php" />
+        <option value="$PROJECT_DIR$/HTML/evaluate_students.php" />
+        <option value="$PROJECT_DIR$/HTML/eval_php/delete_entry.php" />
       </list>
     </option>
   </component>
@@ -374,7 +376,7 @@
       <workItem from="1470367274287" duration="5041000" />
       <workItem from="1470681666256" duration="10768000" />
       <workItem from="1470893914818" duration="11863000" />
-      <workItem from="1471230938925" duration="12679000" />
+      <workItem from="1471230938925" duration="20076000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored code">
       <created>1470894567768</created>
@@ -404,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471239832614</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added feature recently added for eval page">
+      <created>1471246374857</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471246374857</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405673000" />
+    <option name="totallyTimeSpent" value="413070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -462,13 +471,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="2447" column="0" selection-start-line="2447" selection-start-column="0" selection-end-line="2447" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/eval_helper/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -734,17 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/eval_php/delete_entry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1470372054569" expanded="true" signature="323:406" placeholder="DELETE FROM " />
-            <marker date="1470372054569" expanded="true" signature="715:798" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/classes_php/delete_all.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -764,14 +755,6 @@
             <marker date="1470896910638" expanded="true" signature="1598:1731" placeholder="SELECT `cita... rubric_1" />
             <marker date="1470896910638" expanded="true" signature="2213:2470" placeholder="SELECT `agre... rubric_2" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqli_connector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,20 +785,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/index_php/update_semester.php">
+    <entry file="file://$PROJECT_DIR$/HTML/assignment_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <marker date="1469650652358" expanded="true" signature="206:275" placeholder="UPDATE `seme... " />
-          </folding>
+        <state relative-caret-position="-340">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/add_students.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/students_php/show_students.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="73" />
+        <state relative-caret-position="284">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="44" />
           <folding>
             <marker date="1470953964012" expanded="true" signature="59:115" placeholder="SELECT * FRO... students" />
             <marker date="1470953964012" expanded="true" signature="281:366" placeholder="..." />
@@ -835,47 +824,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/add_students.html">
+    <entry file="file://$PROJECT_DIR$/HTML/index_php/update_semester.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="107" column="63" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <marker date="1469650652358" expanded="true" signature="206:275" placeholder="UPDATE `seme... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/edit_eval.php">
+    <entry file="file://$PROJECT_DIR$/mysqli_connector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="187" column="47" selection-start-line="187" selection-start-column="47" selection-end-line="187" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1471246363035" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
-            <marker date="1471246363035" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
-            <marker date="1471246363035" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
-            <marker date="1471246363035" expanded="true" signature="4589:4766" placeholder="..." />
-            <marker date="1471246363035" expanded="true" signature="4625:4733" placeholder="..." />
-            <marker date="1471246363035" expanded="true" signature="5223:5703" placeholder="..." />
-            <marker date="1471246363035" expanded="true" signature="5271:5531" placeholder="..." />
-            <marker date="1471246363035" expanded="true" signature="5318:5349" placeholder="..." />
-            <marker date="1471246363035" expanded="true" signature="5410:5494" placeholder="..." />
-            <marker date="1471246363035" expanded="true" signature="5567:5670" placeholder="..." />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/evaluate_students.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="635" column="99" selection-start-line="635" selection-start-column="99" selection-end-line="635" selection-end-column="99" />
+        <state relative-caret-position="303">
+          <caret line="117" column="50" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#form#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1471244941894" expanded="true" signature="1437:1741" placeholder="..." />
-            <marker date="1471244941894" expanded="true" signature="1480:1723" placeholder="{...}" />
-            <marker date="1471244941894" expanded="true" signature="1815:1927" placeholder="..." />
-            <marker date="1471244941894" expanded="true" signature="1859:1908" placeholder="{...}" />
-            <marker date="1471244941894" expanded="true" signature="28039:28052" placeholder="..." />
-            <marker date="1471244941894" expanded="true" signature="28654:28667" placeholder="..." />
-            <marker date="1471244941894" expanded="true" signature="29150:29164" placeholder="..." />
+            <marker date="1471291994563" expanded="true" signature="1437:1741" placeholder="..." />
+            <marker date="1471291994563" expanded="true" signature="1480:1723" placeholder="{...}" />
+            <marker date="1471291994563" expanded="true" signature="1815:1927" placeholder="..." />
+            <marker date="1471291994563" expanded="true" signature="1859:1908" placeholder="{...}" />
+            <marker date="1471291994563" expanded="true" signature="3864:3869" placeholder="..." />
+            <marker date="1471291994563" expanded="true" signature="3864:3878" placeholder="..." />
+            <marker date="1471291994563" expanded="true" signature="28926:28939" placeholder="..." />
+            <marker date="1471291994563" expanded="true" signature="29541:29554" placeholder="..." />
+            <marker date="1471291994563" expanded="true" signature="30037:30051" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/edit_eval.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="96" column="96" selection-start-line="96" selection-start-column="96" selection-end-line="96" selection-end-column="96" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1471291232002" expanded="true" signature="132:222" placeholder="SELECT assig... rubric_1" />
+            <marker date="1471291232002" expanded="true" signature="236:309" placeholder="SELECT assig... rubric_1" />
+            <marker date="1471291232002" expanded="true" signature="236:310" placeholder="SELECT assig... rubric_1" />
+            <marker date="1471291232002" expanded="true" signature="4690:4867" placeholder="..." />
+            <marker date="1471291232002" expanded="true" signature="4726:4834" placeholder="..." />
+            <marker date="1471291232002" expanded="true" signature="5324:5804" placeholder="..." />
+            <marker date="1471291232002" expanded="true" signature="5372:5632" placeholder="..." />
+            <marker date="1471291232002" expanded="true" signature="5419:5450" placeholder="..." />
+            <marker date="1471291232002" expanded="true" signature="5511:5595" placeholder="..." />
+            <marker date="1471291232002" expanded="true" signature="5668:5771" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/eval_php/delete_entry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1471292066060" expanded="true" signature="319:402" placeholder="DELETE FROM " />
+            <marker date="1471292066060" expanded="true" signature="711:794" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>

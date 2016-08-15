@@ -90,8 +90,23 @@
             <a href="javascript:void(0)" onclick="delete_recent()">
                 <img style="max-width: 20px; max-height: 20%" src="images/Arrows-Undo-icon.png"></a>
             <h3 id="recent" style="color: #768b95;display: inline-block"> &nbsp;Recently Added:
-                <span style="color: white" id="name_student"></span>
-                <span style="color: white" id="name_class"></span></h3>
+                <span style="color: white" id="name_student"></span></h3>
+
+
+            <script>
+                function recently_added (student_val, class_val, assignment_val){
+                    var rec_student = $("#name_student");
+
+                    var url = "edit_eval.php?name="+encodeURIComponent(student_val)+"+&class="+encodeURIComponent(class_val);
+
+                    var html = "<a href='"+url+"'>";
+                    html += student_val + " From " + class_val + ": '" + assignment_val +"'";
+                    html += "</a>";
+
+                    rec_student.html(html);
+                }
+            </script>
+
 
             <script>
                 function edit_assign(name, class_name, assignment) {
@@ -491,6 +506,8 @@
 
                     var class_value = $("#class").val();
                     var student_value = student.val();
+                    var assignment_val = $("#assignment").val();
+
                     var complement = $("#complement").prop("checked");
 
                     suggest_assign(class_value, student_value, complement);
@@ -499,10 +516,11 @@
                         var checkbox_id = x[i].id;
                         $("#" + checkbox_id).prop('checked', false);
                     }
-
-
                     $("html, body").animate({scrollTop: 0}, "slow");
-                    student.select();
+
+                    recently_added(student_value, class_value, assignment_val);
+
+                    student.val("");
                 }
 
                 function validate() {
@@ -547,8 +565,8 @@
                             else {
                                 swal({
                                     title: "<span style='color: #9b74ff'>SUCCESS</span>",
-                                    text: "Added " + student_val + "\'s evaluation for \'" + assignment_val +
-                                    "\'</span>",
+                                    text: "Add " + student_val + "\'s evaluation for \'" + assignment_val +
+                                    "?",
                                     html: true,
                                     showCancelButton: true
                                 }, function () {

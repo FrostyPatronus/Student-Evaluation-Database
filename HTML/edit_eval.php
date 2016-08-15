@@ -111,7 +111,7 @@ array_shift($assignment_list);
                         closeOnConfirm: false
                     }, function () {
                         $.post("eval_helper/delete_all.php", {name: "<?php echo $student?>", class_name: "<?php echo $class?>"}, function (data) {
-                            document.write(data)
+//                            document.write(data);
                             location.reload();
                         });
                     });
@@ -185,5 +185,5 @@ array_shift($assignment_list);
 <script src="assets/js/main.js"></script>
 
 </body>
-<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+<iframe name="hiddenFrame" width="0" height="0" style="display: none;"></iframe>
 </html>

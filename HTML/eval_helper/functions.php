@@ -122,7 +122,7 @@ function data_points()
 
 function del_temp_pics()
 {
-    $path = 'C:\xampp\htdocs\Database\HTML\eval_helper\temp_pics';
+    $path = '\xampp\htdocs\Database\HTML\eval_helper\temp_pics';
     $files = glob($path . '/*');
     foreach ($files as $file) {
         unlink($file);

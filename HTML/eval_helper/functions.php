@@ -127,7 +127,6 @@ function del_temp_pics()
     foreach ($files as $file) {
         unlink($file);
     }
-    return;
 }
 
 function get_id_from_name($student, $class)

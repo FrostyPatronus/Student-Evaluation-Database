@@ -125,7 +125,9 @@ function del_temp_pics()
     $path = '\xampp\htdocs\Database\HTML\eval_helper\temp_pics';
     $files = glob($path . '/*');
     foreach ($files as $file) {
-        unlink($file);
+        if ($file != ".gitignore"){
+            unlink($file);
+        }
     }
 }
 

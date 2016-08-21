@@ -620,11 +620,11 @@
                     });
                 }
 
-                /*function delete_row(row) {
+                function delete_row(row) {
                     $.get("students_php/delete_student.php?row=" + row, function () {
                         update_table();
                     });
-                }*/
+                }
 
                 function delete_all() {
                     swal({

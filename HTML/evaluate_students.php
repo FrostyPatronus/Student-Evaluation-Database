@@ -316,7 +316,7 @@
                         })
                     </script>
 
-                    <table>
+                    <table id="radio_buttons">
 
                         <thead>
                         <h2>Written Communication</h2>
@@ -534,6 +534,9 @@
                         $("#" + checkbox_id).prop('checked', false);
                     }
                     $("html, body").animate({scrollTop: 0}, "slow");
+
+                    //Unchecks all radio buttons
+                    $("#radio_buttons input").prop("checked", false);
 
                     recently_added(student_value, class_value, assignment_val);
 

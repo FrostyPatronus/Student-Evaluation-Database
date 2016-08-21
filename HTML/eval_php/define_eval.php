@@ -85,10 +85,11 @@ $sql_2 = "
     SELECT `agreements`, `commas`, `fragments`, `misplaced`, `apostrophes`, 
     `duplicate`, `hypotheticals`, `run_on`, `capitalization`, `formatting`,
      `pronouns`, `verb`, `spelling`, assignments.date_due 
-     FROM `rubric_2`, assignments 
-     WHERE rubric_2.assignment_id = assignments.assignment_id 
+     FROM `rubric_2`, assignments, assignment_group   
+     WHERE rubric_2.assignment_id = assignment_group.rel_id 
+     AND assignment_group.assignment_id = assignments.assignment_id
      AND `student_name`=?
-     AND `class_name`=?
+     AND rubric_2.class_name=?
      ORDER BY assignments.date_due ASC
 ";
 $stmt = mysqli_prepare($dbc, $sql_2);

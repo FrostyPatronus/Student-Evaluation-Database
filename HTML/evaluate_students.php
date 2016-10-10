@@ -68,10 +68,12 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="all_the_students_page.html">Show all Students</a></li>
             <li><a href="evaluate_students.php" class="active">Evaluate students</a></li>
             <li><a href="add_students.html">Add students</a></li>
             <li><a href="add_classes.html">Add classes</a></li>
             <li><a href="assignment_index.html">Add Assignments</a></li>
+
         </ul>
     </nav>
 </header>
@@ -493,7 +495,7 @@
                 }
 
                 function get_button(id) {
-                    return {name: id, value: is_checked(id)}
+                    return {name: id, value: is_checked(id)};
                 }
 
                 function push_all(data) {
@@ -506,7 +508,7 @@
                     //document.write(names);
 
                     for (var k = 0; k < names.length; k++) {
-                        data.push(get_button(names[k]))
+                        data.push(get_button(names[k]));
                     }
                 }
 
@@ -582,7 +584,7 @@
                                         html: true
                                     }, function () {
                                         $("html, body").animate({scrollTop: 0}, "slow");
-                                    })
+                                    });
                                 }
                             }
                             else {
@@ -614,31 +616,6 @@
                         //document.write(data);
                         $("html, body").animate({scrollTop: 0}, "slow");
                         after_submit()
-                    });
-                }
-
-                function delete_row(row) {
-                    $.get("students_php/delete_student.php?row=" + row, function () {
-                        update_table();
-                    });
-                }
-
-
-
-                function delete_group(class_name) {
-                    swal({
-                        title: "Are you sure?",
-                        text: "You will not be able to undo this!",
-                        type: "warning",
-                        showCancelButton: true,
-                        confirmButtonColor: "#DD6B55",
-                        confirmButtonText: "Yes, clear it!",
-                        closeOnConfirm: false
-                    }, function () {
-                        $.post("students_php/delete_group.php?class_name=" + class_name, function (data) {
-                            update_table();
-                            swal("Deleted!", "You asked for it.", "success");
-                        });
                     });
                 }
 

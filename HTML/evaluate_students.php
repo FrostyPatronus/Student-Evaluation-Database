@@ -430,8 +430,8 @@
                                 <label for="fragments">Fragments</label>
                             </td>
                             <td>
-                                <input type="checkbox" id="misplaced" name="misplaced">
-                                <label for="misplaced">Misplaced Modifiers</label>
+                                <input type="checkbox" id="pronouns" name="pronouns">
+                                <label for="pronouns">Personal Pronouns</label>
                             </td>
                         </tr>
 
@@ -464,8 +464,8 @@
                                 <label for="formatting">Formatting</label>
                             </td>
                             <td>
-                                <input type="checkbox" id="pronouns" name="pronouns">
-                                <label for="pronouns">Personal Pronouns</label>
+                                <input type="checkbox" id="misplaced" name="misplaced">
+                                <label for="misplaced">Misplaced Modifiers</label>
                             </td>
                             <td>
                                 <input type="checkbox" id="verb" name="verb">

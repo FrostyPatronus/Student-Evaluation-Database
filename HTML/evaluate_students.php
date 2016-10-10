@@ -171,7 +171,7 @@
                             <td style="vertical-align:middle;width:20%;"><h3>Student Name: </h3></td>
                             <td>
                                 <input type="text"
-                                       id="student_name" name="student_name" placeholder="'Trump, Donald John'"
+                                       id="student_name" name="student_name" placeholder="'Jane, Doe'"
                                        onclick="select()" required/>
                                 <script>
                                     var availableTags = [];

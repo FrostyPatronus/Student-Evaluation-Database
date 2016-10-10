@@ -20,13 +20,6 @@
 
     <script src="../sweetalert-master/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../sweetalert-master/dist/sweetalert.css">
-
-    <script>
-        $(document).ready(function () {
-            //$.get("../mysqli_connector.php");
-        })
-    </script>
-
 </head>
 
 <body>
@@ -58,12 +51,12 @@
             <h1>Student Database</h1>
             <p>Welcome, Mr. Hsu</p>
             <ul class="actions">
-                <li><a class="button scrolly" id="settings">Set Semester</a></li>
+                <li><a class="button scrolly" id="settings">Edit Semester</a></li>
                 <script>
                     $("#settings").click(function () {
                         $.get("index_php/echo_semester.php", function (data) {
                             swal({
-                                title: "Set Semester",
+                                title: "Edit Semester",
                                 type: "input",
                                 showCancelButton: true,
                                 closeOnConfirm: false,
@@ -76,7 +69,7 @@
 
                                 if (inputValue === "") {
                                     swal.showInputError("Write something, man!");
-                                    return false
+                                    return false;
                                 }
                                 var form = [{name: 'semester', value: inputValue}];
                                 $.post("index_php/update_semester.php", form, function (data) {
@@ -85,7 +78,7 @@
 
                             });
                         });
-                    })
+                    });
                 </script>
             </ul>
         </div>

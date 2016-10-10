@@ -27,6 +27,9 @@
     <script src="jQuery/jQuery2"></script>
     <script src="../setOps.js"></script>
 
+    <script src="js/eval_students_page/evaluate-students.js"></script>
+
+
 
     <?php // PHP CODE. Checks if it is in a edit eval mode
     $is_edit = count($_REQUEST) == 3;
@@ -50,7 +53,7 @@
         <script>
              $(document).ready(function() {
                 class_options();
-             })
+             });
          </script>";
         echo $script;
     }
@@ -150,10 +153,10 @@
                             $("input[name=" + radios[i] + "][value=" + rubric_1[i] + "]").prop('checked', true);
                         }
 
-                        var checkboxes = [`agreements`, `commas`, `fragments`, `misplaced`,
-                            `apostrophes`, `duplicate`, `hypotheticals`, `run_on`,
-                            `capitalization`, `formatting`, `pronouns`, `verb`,
-                            `spelling`];
+                        var checkboxes = ["agreements", "commas", "fragments", "misplaced",
+                            "apostrophes", "duplicate", "hypotheticals", "run_on",
+                            "capitalization", "formatting", "pronouns", "verb",
+                            "spelling"];
                         for (var x = 0; x < checkboxes.length; x++) {
                             if (rubric_2[x] == 1) {
                                 $("#" + checkboxes[x]).prop('checked', true);
@@ -191,7 +194,7 @@
                                             //suggest_assign(str);
 
                                         });
-                                    }
+                                    };
                                 </script>
                             </td>
                         </tr>
@@ -245,8 +248,8 @@
                                             var student_value = $("#student_name").val();
                                             var complement = $("#complement").prop("checked");
 
-                                            suggest_assign(class_value, student_value, complement)
-                                        })
+                                            suggest_assign(class_value, student_value, complement);
+                                        });
 
                                     </script>
                                 </select>
@@ -614,34 +617,13 @@
                     });
                 }
 
-                function update_table() {
-                    $.get("students_php/show_students.php", function (data) {
-                        document.getElementById("students_table").innerHTML = data;
-                    });
-                }
-
                 function delete_row(row) {
                     $.get("students_php/delete_student.php?row=" + row, function () {
                         update_table();
                     });
                 }
 
-                function delete_all() {
-                    swal({
-                        title: "Are you sure?",
-                        text: "You will not be able to undo this!",
-                        type: "warning",
-                        showCancelButton: true,
-                        confirmButtonColor: "#DD6B55",
-                        confirmButtonText: "Yes, clear it!",
-                        closeOnConfirm: false
-                    }, function () {
-                        $.post("students_php/delete_all.php", function () {
-                            update_table();
-                            swal("Deleted!", "You asked for it.", "success");
-                        });
-                    });
-                }
+
 
                 function delete_group(class_name) {
                     swal({
@@ -710,20 +692,13 @@
 
                                 });
                         } else {
-                            validate()
+                            validate();
                         }
                     });
                 }
 
             </script>
 
-            <table id="students_table">
-                <script>
-                    update_table();
-                </script>
-            </table>
-
-            <button onclick="delete_all();">Clear All</button>
 
         </div>
     </section>
@@ -746,6 +721,7 @@
 <!--[if lte IE 8]>
 <script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
+
 
 </body>
 <iframe name="hiddenFrame" width="0" height="0" style="display: none;"></iframe>

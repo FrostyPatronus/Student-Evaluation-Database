@@ -338,76 +338,76 @@
                             <td style="vertical-align:middle;width:20%;"><h3>Citations</h3></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="citation_2"
                                                                                 name="citation" value="3" required>
-                                <label for="citation_2">3</label></td>
+                                <label for="citation_2">6</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="citation_3"
                                                                                 name="citation" value="4">
-                                <label for="citation_3">4</label></td>
+                                <label for="citation_3">7</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="citation_4"
                                                                                 name="citation" value="5">
-                                <label for="citation_4">5</label></td>
+                                <label for="citation_4">8</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="citation_5"
                                                                                 name="citation" value="6">
-                                <label for="citation_5">6</label></td>
+                                <label for="citation_5">9</label></td>
                         </tr>
                         <tr>
                             <td style="vertical-align:middle;width:20%;"><h3>Analysis</h3></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="analyisis_2"
                                                                                 name="analysis" value="3" required>
-                                <label for="analyisis_2">3</label></td>
+                                <label for="analyisis_2">6</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="analyisis_3"
                                                                                 name="analysis" value="4">
-                                <label for="analyisis_3">4</label></td>
+                                <label for="analyisis_3">7</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="analyisis_4"
                                                                                 name="analysis" value="5">
-                                <label for="analyisis_4">5</label></td>
+                                <label for="analyisis_4">8</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="analyisis_5"
                                                                                 name="analysis" value="6">
-                                <label for="analyisis_5">6</label></td>
+                                <label for="analyisis_5">9</label></td>
                         </tr>
                         <tr>
                             <td style="vertical-align:middle;width:20%;"><h3>Thesis Statement</h3></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="thesis_2" name="thesis"
                                                                                 value="3" required>
-                                <label for="thesis_2">3</label></td>
+                                <label for="thesis_2">6</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="thesis_3" name="thesis"
                                                                                 value="4">
-                                <label for="thesis_3">4</label></td>
+                                <label for="thesis_3">7</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="thesis_4" name="thesis"
                                                                                 value="5">
-                                <label for="thesis_4">5</label></td>
+                                <label for="thesis_4">8</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="thesis_5" name="thesis"
                                                                                 value="6">
-                                <label for="thesis_5">6</label></td>
+                                <label for="thesis_5">9</label></td>
                         </tr>
                         <tr>
                             <td style="vertical-align:middle;width:20%;"><h3>Topic Sentence</h3></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="topic_2" name="topic"
                                                                                 value="3" required>
-                                <label for="topic_2">3</label></td>
+                                <label for="topic_2">6</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="topic_3" name="topic"
                                                                                 value="4">
-                                <label for="topic_3">4</label></td>
+                                <label for="topic_3">7</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="topic_4" name="topic"
                                                                                 value="5">
-                                <label for="topic_4">5</label></td>
+                                <label for="topic_4">8</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="topic_5" name="topic"
                                                                                 value="6">
-                                <label for="topic_5">6</label></td>
+                                <label for="topic_5">9</label></td>
                         </tr>
                         <tr>
                             <td style="vertical-align:middle;width:20%;"><h3>Writing Mechanics</h3></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="written_2"
                                                                                 name="written" value="3" required>
-                                <label for="written_2">3</label></td>
+                                <label for="written_2">6</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="written_3"
                                                                                 name="written" value="4">
-                                <label for="written_3">4</label></td>
+                                <label for="written_3">7</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="written_4"
                                                                                 name="written" value="5">
-                                <label for="written_4">5</label></td>
+                                <label for="written_4">8</label></td>
                             <td style="vertical-align:middle;width:20%;"><input type="radio" id="written_5"
                                                                                 name="written" value="6">
-                                <label for="written_5">6</label></td>
+                                <label for="written_5">9</label></td>
                         </tr>
                     </table>
 

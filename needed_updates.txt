@@ -1,6 +1,4 @@
-When entering students name under "add students", I have to learn not to place a comma in the field... otherwise the database will add another comma. For example, if I type in "Samson, Timothy", the database will record it as "Samson,, Timothy".
-
-It is currently not possible to record last names with a space in them. For example, "Sto Domingo, George", shows up as "Sto, Domingo George"​
+2 Text fields, one for surname and other for given names
 
 Is it possible for the student name to autofill under "Evaluate Students" when there is only one student left? Saves me two key strokes. Needs to make clear that when a "student does not exist" error occurs the end user is reminded to double check the block. 
 
@@ -9,6 +7,4 @@ Is it possible to add students and assignments directly from "Evaluate Students"
 Touch is very laggy.
 
 Make the check boxes larger for the rubric
-
-Clicking on the "Fly!" button under "Student Reports" sends me back to the home screen; cannot generate report
 

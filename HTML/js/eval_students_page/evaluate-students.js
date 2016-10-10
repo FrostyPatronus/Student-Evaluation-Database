@@ -45,4 +45,3 @@ function delete_row(row) {
 }
 
 update_table();
-

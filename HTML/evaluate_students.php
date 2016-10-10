@@ -27,8 +27,6 @@
     <script src="jQuery/jQuery2"></script>
     <script src="../setOps.js"></script>
 
-    <script src="js/eval_students_page/evaluate-students.js"></script>
-
 
 
     <?php // PHP CODE. Checks if it is in a edit eval mode
@@ -698,6 +696,8 @@
 <!--[if lte IE 8]>
 <script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
+
+<script src="js/eval_students_page/evaluation-index.js"></script>
 
 
 </body>

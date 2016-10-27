@@ -52,8 +52,14 @@
                         <tr>
                             <td style="vertical-align:middle;width:20%;"><h3>Student Name: </h3></td>
                             <td>
-                                <input type="text" id="student_name" name="student_name"
-                                       placeholder="'Jane, Doe'" required/>
+
+                                <input type="text" id="student_last_name" name="student_last_name"
+                                       placeholder="Last Name" required/>   
+
+                                <input type="text" id="student_first_name" name="student_first_name"
+                                       placeholder="First Name" required/>
+
+
                             </td>
                         </tr>
                         <tr>
@@ -94,25 +100,53 @@
 
                 function push_data() {
                     var format_checked = $("#format").prop("checked");
-                    var student = $("#student_name");
+
+                    var lastName = $("#student_last_name").val();
+                    var firstName = $("#student_first_name").val();
+
+                    // if (format_checked) {
+                    //     var value = student.val();
+                    //     var split = value.split(" ");
+                    //     var x = "";
+
+                    //     $.each(split, function (index, value) {
+                    //         if (index == 0) {
+                    //             x += capitalize(value) + ", ";
+                    //         } else {
+                    //             x += capitalize(value) + " ";
+                    //         }
+                    //     });
+
+                    //     student.val(x);
+                    // }
+
+                    var name = "";
+
                     if (format_checked) {
-                        var value = student.val();
-                        var split = value.split(" ");
-                        var x = "";
-                        $.each(split, function (index, value) {
-                            if (index == 0) {
-                                x += capitalize(value) + ", ";
-                            } else {
-                                x += capitalize(value) + " ";
-                            }
+                        $.each(lastName.split(" "), function(index, value){
+                            name += capitalize(value) + " ";
                         });
-                        student.val(x)
+
+                        name = name.slice(0, -1);
+                        name += ", ";
+
+                        $.each(firstName.split(" "), function(index, value){
+                            name += capitalize(value) + " ";
+                        });
+
+                        name = name.slice (0, -1);
                     }
-                    document.getElementById("name_student").innerHTML = student.val();
+
+                    document.getElementById("name_student").innerHTML = name;
                     document.getElementById("name_class").innerHTML =
                             "<span style='color: #768b95'> from </span>"
                             + $("#class").val();
-                    var form = $("#student").serializeArray();
+                    // var form = $("#student").serializeArray();
+
+                    var form = {
+                        class: $("#class").val(),
+                        student_name: name
+                    };
 
                     $.post("students_php/add_student.php", form, function (data) {
                         update_table();
@@ -168,9 +202,10 @@
                 $(document).ready(function () {
                     $("#student").submit(function (e) {
                         e.preventDefault();
-                        var student = $("#student_name");
                         push_data();
-                        student.val("");
+
+                        $("#student_first_name").val("");
+                        $("#student_last_name").val("");
 
                     });
                 });

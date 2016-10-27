@@ -64,15 +64,9 @@
 <header id="header">
     <a href="index.html" class="title">Humanities Database</a>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="all_the_students_page.html">Show all Students</a></li>
-            <li><a href="evaluate_students.php" class="active">Evaluate students</a></li>
-            <li><a href="add_students.html">Add students</a></li>
-            <li><a href="add_classes.html">Add classes</a></li>
-            <li><a href="assignment_index.html">Add Assignments</a></li>
-
-        </ul>
+        <?php 
+            include("html/headers.html")
+        ?>
     </nav>
 </header>
 
@@ -581,7 +575,7 @@
                         var pass = {
                             class: class_val
                         };
-                        
+
                         $.get("eval_helper/echo_all_assign.php", pass, function (data) {
                             ass_ex = data.indexOf("&*&*" + assignment_val) >= 0;
 

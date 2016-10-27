@@ -1,0 +1,14 @@
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="student_reports.html">Student Reports</a></li>
+  <li><a href="evaluate_students.php">Evaluate students</a></li>
+  <li><a href="assignment_index.html">Add Assignments</a></li>
+  <li><a href="add_classes.html">Add Classes</a></li>
+  <li><a href="add_students.html">Add Students</a></li>  
+</ul>
+
+<script>
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+  $('a[href="'+ page + '"]').addClass("active");
+</script>

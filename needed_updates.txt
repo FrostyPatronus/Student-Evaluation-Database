@@ -5,6 +5,3 @@ Is it possible for the student name to autofill under "Evaluate Students" when t
 Is it possible to add students and assignments directly from "Evaluate Students"? It is very annoying to input students twice for the first assignment. 
 
 Touch is very laggy.
-
-Make the check boxes larger for the rubric
-

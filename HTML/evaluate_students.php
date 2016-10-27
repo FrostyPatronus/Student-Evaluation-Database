@@ -125,10 +125,7 @@
 
                     rec_student.html(html);
                 }
-            </script>
 
-
-            <script>
                 function edit_assign(name, class_name, assignment) {
                     $("#student_name").val(name);
                     $("#class").val(class_name);
@@ -272,7 +269,10 @@
 
                                     var suggest_assign = function (the_class, student, is_complement) {
                                         assignments.length = 0;
-                                        $.get("eval_helper/echo_all_assign.php?class=" + the_class, function (data) {
+
+                                        var fileString = "eval_helper/echo_all_assign.php?class="
+
+                                        $.get(fileString, {class: the_class} , function (data) {
                                             var x = data.split("&*&*");
                                             x.shift();
                                             x.pop();
@@ -291,7 +291,7 @@
                                                         assignments.push(complement[i]);
                                                     }
 
-                                                })
+                                                });
                                             } else {
                                                 for (var i = 0; i < x.length; i++) {
                                                     assignments.push(x[i]);
@@ -316,7 +316,7 @@
                             var complement = $("#complement").prop("checked");
 
                             suggest_assign(class_value, student_value, complement)
-                        })
+                        });
                     </script>
 
                     <table id="radio_buttons">

@@ -181,7 +181,8 @@
 
                                     $("#student_name").autocomplete({
                                         delay: 0,
-                                        source: availableTags
+                                        source: availableTags,
+                                        autoFocus: true
                                     });
 
                                     var suggest_students = function (str) {
@@ -270,7 +271,9 @@
 
                                     $("#assignment").autocomplete({
                                         delay: 0,
-                                        source: assignments
+                                        source: assignments,
+                                        autoFocus: true
+
                                     });
 
                                     var suggest_assign = function (the_class, student, is_complement) {

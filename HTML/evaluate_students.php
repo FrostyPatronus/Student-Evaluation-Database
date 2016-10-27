@@ -135,8 +135,17 @@
                     class_name = encodeURIComponent(class_name);
                     assignment = encodeURIComponent(assignment);
 
-                    var url = "eval_helper/echo_student_eval.php?name=" + name + "&class=" + class_name + "&assignment=" + assignment;
-                    $.get(url, function (data) {
+                    // var url = ?name=" + name + "&class=" + class_name + "&assignment=" + assignment;
+
+                    var url = "eval_helper/echo_student_eval.php"
+
+                    var pass = {
+                        name: name,
+                        class: class_name,
+                        asssignment: assignment
+                    };
+
+                    $.get(url, pass, function (data) {
                         data = data.split(" , ");
 
                         var rubric_1 = data[0];
@@ -182,7 +191,10 @@
                                     });
 
                                     var suggest_students = function (str) {
-                                        $.get("eval_php/suggestions.php?class=" + str, function (data) {
+                                        var data = {
+                                            class: str
+                                        }
+                                        $.get("eval_php/suggestions.php", data, function (data) {
                                             availableTags.length = 0;
                                             var x = data.split("&*&*", data.split("&*&*").length - 1);
                                             for (var i = 0; i < x.length; i++) {
@@ -270,7 +282,7 @@
                                     var suggest_assign = function (the_class, student, is_complement) {
                                         assignments.length = 0;
 
-                                        var fileString = "eval_helper/echo_all_assign.php?class="
+                                        var fileString = "eval_helper/echo_all_assign.php"
 
                                         $.get(fileString, {class: the_class} , function (data) {
                                             var x = data.split("&*&*");
@@ -278,7 +290,14 @@
                                             x.pop();
 
                                             if (is_complement) {
-                                                $.get("eval_php/assign_complete.php?student=" + student + "&class=" + the_class, function (data) {
+                                                var assign_complete = 
+                                                    "eval_php/assign_complete.php";
+
+                                                var pass = {
+                                                    student: student,
+                                                    class: the_class
+                                                };
+                                                $.get(assign_complete, pass, function (data) {
                                                     //document.write(data);
                                                     var explode = data.split("&*&*");
                                                     explode.shift();
@@ -559,7 +578,11 @@
                         stud_ex = data.indexOf(check) >= 0;
 
                         //var old_get = "assignment_php/echo_assignments.php?class="+class_val;
-                        $.get("eval_helper/echo_all_assign.php?class=" + class_val, function (data) {
+                        var pass = {
+                            class: class_val
+                        };
+                        
+                        $.get("eval_helper/echo_all_assign.php", pass, function (data) {
                             ass_ex = data.indexOf("&*&*" + assignment_val) >= 0;
 
                             if (!(ass_ex && stud_ex)) {
